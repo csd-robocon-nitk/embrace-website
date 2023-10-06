@@ -1,0 +1,4 @@
+main.home {
+    height: 100vh;
+    background: linear-gradient(var(--bg-light-blue) 70%, var(--bg-dark-blue));
+}

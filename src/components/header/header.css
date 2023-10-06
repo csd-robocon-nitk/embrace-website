@@ -6,6 +6,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+
+    color: var(--light-text);
 }
 
 header .content {
@@ -34,4 +36,19 @@ header nav ul li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+}
+
+header nav ul li a::after {
+    content: '';
+    display: block;
+    margin-top: 3px;
+    height: 4px;
+    width: 0;
+    border-radius: 2px;
+    background-color: var(--accent);
+    transition: 400ms;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
 }

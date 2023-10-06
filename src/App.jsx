@@ -2,7 +2,7 @@ import './App.css'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Home from './pages/Home.jsx'
+import Home from './pages/home/home.jsx'
 import Page from './pages/Page.jsx'
 
 import Header from './components/header/header'
