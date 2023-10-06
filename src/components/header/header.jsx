@@ -8,8 +8,8 @@ export default function Header () {
                 <nav>
                     <ul>
                         <li><a href="/">HOME</a></li>
-                        <li><a href="/about">ABOUT US</a></li>
-                        <li><a href="/centers">NODAL CENTERS</a></li>
+                        <li><a href="/aboutus">ABOUT US</a></li>
+                        <li><a href="/centres">NODAL CENTERS</a></li>
                         <li><a href="/resources">RESOURCES</a></li>
                         <li><a href="/involve">GET INVOLVED</a></li>
                         <li><a href="/gallery">GALLERY</a></li>
