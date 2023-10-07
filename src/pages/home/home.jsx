@@ -18,7 +18,7 @@ export default function Home () {
                         </h2>
                     </div>
                     {/* <h3>Empowering Communities through Disaster Resilience and Education</h3> */}
-                    <img src="/gifpic.gif" alt="" />
+                    {/*<img src="/gifpic.gif" alt="" /> */}
                     
                 </div>
             </div>
