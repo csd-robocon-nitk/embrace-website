@@ -2,10 +2,11 @@
 
 :root {
 	--light-text: #dddddd;
-	--bg-light-blue: #296b97;
-	--bg-dark-blue: #2b459c;
+	--bg-light-blue: #3090d0;
+	--bg-dark-blue: rgb(52, 52, 182);
 
 	--accent: #070067;
+	--accent-transparent: #07006784;
 }
 
 body {
