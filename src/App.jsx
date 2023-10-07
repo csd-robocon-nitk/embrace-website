@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/home/home.jsx'
 
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
 import Aboutus from './pages/aboutus/aboutus'
 import Contact from './pages/contact/contact'
 import Nodalcentres from './pages/nodalcentres/nodalcentres'
@@ -25,6 +26,7 @@ function App() {
 				<Route path = "/gallery" element={<Gallery />}/>
 				<Route path = "/contact" element={<Contact />}/>
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	)
 }

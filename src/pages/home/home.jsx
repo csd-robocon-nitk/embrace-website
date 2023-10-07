@@ -38,6 +38,16 @@ export default function Home () {
                     
                 </div>
             </div>
+            <div className={s.key}>
+                <div className={s.content}>
+                    <h1>KEY INITIATIVES</h1>
+                </div>
+            </div>
+            <div className={s.testimonials}>
+                <div className={s.content}>
+                    <h1>TESTIMONIALS</h1>
+                </div>
+            </div>
         </main>
     )
 }
