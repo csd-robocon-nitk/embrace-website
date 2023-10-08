@@ -1,5 +1,4 @@
 main.aboutus {
-    background-color: #e0e0e0;
     min-height: 100vh;
 }
 
@@ -34,13 +33,13 @@ main.aboutus {
 
 
 .aboutus .content {
-    padding: 50px 0px;
+    padding: 50px 20px;
     max-width: 850px;
     margin: 0px auto;
 }
 
 .aboutus .content h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -54,4 +53,40 @@ main.aboutus {
     text-align: justify;
     font-size: 20px;
     line-height: 170%;
+}
+
+
+
+
+.aboutus .content .cards {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 2%;
+    margin-bottom: 40px;
+}
+
+.aboutus .content .cards .card {
+    width: 32%;
+    background-color: hsl(214, 94%, 27%);
+    color: var(--light-text);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 5px #43abc0c3;
+}
+
+.aboutus .content .cards .card h2 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.aboutus .content .cards .card p {
+    font-size: 15px;
+}
+
+
+
+.aboutus .content img {
+    max-width: 100%;
 }
