@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&family=Anton&display=swap');
 
 :root {
 	--light-text: #dddddd;
-	--bg-light-blue: #3090d0;
-	--bg-dark-blue: rgb(52, 52, 182);
+	--dark-text: #000046;
+	--bg-light-blue: #66a7d2;
+	--bg-dark-blue: rgb(13, 13, 105);
 
 	--accent: #070067;
-	--accent-transparent: #07006784;
+	--accent-transparent: #2a229684;
 }
 
 body {
 	font-family: 'Fira Sans', sans-serif;
+	background-color: #cadfee;
 }
 
 * {

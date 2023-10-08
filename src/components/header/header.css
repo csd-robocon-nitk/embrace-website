@@ -7,9 +7,15 @@ header {
     top: 0;
     left: 0;
 
-    color: var(--light-text);
+    color: var(--dark-text);
+    transition: 250ms;
+    z-index: 100;
+}
+
+header.bg {
     box-shadow: var(--accent-transparent) 0px 3px 8px;
     background-color: rgb(13, 13, 105);
+    color: var(--light-text);
 }
 
 header .content {
@@ -47,7 +53,7 @@ header nav ul li a::after {
     height: 4px;
     width: 0;
     border-radius: 2px;
-    background-color: var(--bg-light-blue);
+    background-color: #FF6969;
     transition: 400ms;
 }
 

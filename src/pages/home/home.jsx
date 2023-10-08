@@ -4,6 +4,7 @@ export default function Home () {
     return (
         <main className = {s.home}>
             <div className = {s.cover}>
+                <img className = {s.antenna} src="/antenna.png" alt="" />
                 <div className = {s.content}>
                     <div>
                         <h1>EMBRACE</h1><br />
@@ -18,7 +19,7 @@ export default function Home () {
                         </h2>
                     </div>
                     {/* <h3>Empowering Communities through Disaster Resilience and Education</h3> */}
-                    {/*<img src="/gifpic.gif" alt="" /> */}
+                    <img src="/illustration-blue.png" alt="" />
                     
                 </div>
             </div>

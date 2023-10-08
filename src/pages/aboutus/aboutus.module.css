@@ -1,8 +1,57 @@
 main.aboutus {
-    height: 100vh;
-    background: linear-gradient(var(--bg-light-blue) 70%, var(--bg-dark-blue));
-    text-align: center;
+    background-color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.aboutus .heading {
+    height: 400px;
+    background-image: url("/pic.jpg");
+    background-size: cover;
+    background-position: 0% 35%;
+}
+
+.aboutus .heading .container {
+    background-color: #000000bb;
+    color: var(--light-text);
+    height: 100%;
+    padding-top: 70px;
+
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutus .heading .container h1 {
+    font-size: 60px;
+}
+
+.aboutus .heading .container h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.aboutus .content {
+    padding: 50px 0px;
+    max-width: 850px;
+    margin: 0px auto;
+}
+
+.aboutus .content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.aboutus .content h2 {
+    text-align: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 30px;
+}
+
+.aboutus .content p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 170%;
 }

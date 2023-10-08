@@ -1,18 +1,27 @@
-main.home {
-}
-
 .home .cover {
     height: 100vh;
-    background: linear-gradient(var(--bg-light-blue) 60%, var(--bg-dark-blue));
+    padding-top: 70px;
+    background: linear-gradient(to right, hsl(190, 78%, 36%) 30%, hsl(214, 94%, 27%));
     /* background-image: url("/pic.jpg"); */
     /* background-size: cover; */
     /* background-position: center; */
+    /* background-color: #798DC5; */
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
     text-align: left;
-    color: rgb(0, 0, 70);
+    color: var(--dark-text);
+    position: relative;
+    overflow: hidden;
+}
+
+.home .cover .antenna {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    transform: translateX(50%);
 }
 
 .home .cover .content {
@@ -23,21 +32,28 @@ main.home {
     align-items: center;
 }
 
-.home .cover img {
-    width: 300px;
+.home .cover .content img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .home .cover h1 {
-    font-size: 60px;
+    font-size: 80px;
+    text-shadow: 2px 2px 5px #0057ff;
+    font-family: 'Anton';
+    color: #d9fffe;
+    line-height: 60px;
     /* text-transform: capitalize; */
-    letter-spacing: 15px;
+    /* letter-spacing: 15px; */
     /* background-color: black; */
     /* text-align: center; */
 }
 .home .cover h2 {
     font-size: 30px;
     /* background-color: black; */
-    line-height: 40px;
     /* text-transform: uppercase; */
     /* text-align: center; */
     max-width: 800px;
@@ -54,29 +70,32 @@ main.home {
     font-weight: 600;
 }
 
+
+
+
+
 .home .about{
-    height: 100vh;
     display: flex;
     /* justify-content: center; */
     align-items: left;
     /* flex-direction: column; */
     text-align: left;
-    color: rgb(0, 0, 70);    
+    color: rgb(0, 0, 70);
 }
 
 .home .about .content {
     /* background-color: rgba(255, 255, 255, 0.4); */
-    width: 55%;
-    padding-left: 70px;
+    width: 95%;
+    max-width: 700px;
+    margin: 80px auto;
     border-radius: 15px;
     display: flex;
     align-items: left;
     text-align: left;
-    padding-top: 50px
 }
 
 .home .about .content div h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .home .about .content div h2{
@@ -87,6 +106,8 @@ main.home {
     font-size: 20px;
     text-align: justify;
 }
+
+
 
 .home .key{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
