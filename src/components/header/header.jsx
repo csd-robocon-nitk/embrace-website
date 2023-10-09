@@ -20,8 +20,12 @@ export default function Header () {
     
     return (
         <header /* ref = {headerRef} */>
+
             <div className="content">
-                <h1>EMBRACE</h1>
+                <div className="left">
+                    <img src="/ham.svg" alt="" tabIndex={0} />
+                    <h1>EMBRACE</h1>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="/">HOME</a></li>

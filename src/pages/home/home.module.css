@@ -1,6 +1,6 @@
 .home .cover {
     height: 100vh;
-    padding-top: 70px;
+    padding-top: var(--header-height);
     background: linear-gradient(to right, hsl(190, 78%, 36%) 30%, hsl(214, 94%, 27%));
     /* background-image: url("/pic.jpg"); */
     /* background-size: cover; */
