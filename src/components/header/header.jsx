@@ -3,23 +3,23 @@ import './header.css'
 import { useEffect } from 'react'
 
 export default function Header () {
-    let headerRef = useRef()
+    // let headerRef = useRef()
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        let y = window.scrollY
-        if (y > 60) headerRef.current.className = "bg"
-        else headerRef.current.className = ""
+    //     let y = window.scrollY
+    //     if (y > 60) headerRef.current.className = "bg"
+    //     else headerRef.current.className = ""
 
-        document.addEventListener("scroll", e => {
-            let y = window.scrollY
-            if (y > 60) headerRef.current.className = "bg"
-            else headerRef.current.className = "bg"
-        })
-    }, [])
+    //     document.addEventListener("scroll", e => {
+    //         let y = window.scrollY
+    //         if (y > 60) headerRef.current.className = "bg"
+    //         else headerRef.current.className = "bg"
+    //     })
+    // }, [])
     
     return (
-        <header ref = {headerRef}>
+        <header /* ref = {headerRef} */>
             <div className="content">
                 <h1>EMBRACE</h1>
                 <nav>
