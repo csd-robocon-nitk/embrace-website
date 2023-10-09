@@ -1,8 +1,23 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import './header.css'
 import { useEffect } from 'react'
 
 export default function Header () {
+    let [navbarOpen, setNavbarOpen] = useState(false)
+    let navRef = useRef()
+
+    useEffect(() => {
+        document.addEventListener("click", () => setNavbarOpen(false))
+        navRef.current.addEventListener("click", (e) => e.stopPropogation())
+    })
+
+    function openNav (e) {
+        if (!navbarOpen) {
+            e.stopPropagation()
+            setNavbarOpen(true)
+        }
+    }
+
     // let headerRef = useRef()
 
     // useEffect(() => {
@@ -19,14 +34,14 @@ export default function Header () {
     // }, [])
     
     return (
-        <header /* ref = {headerRef} */>
+        <header className={navbarOpen ? "navbar-open" : ""} /* ref = {headerRef} */>
 
             <div className="content">
                 <div className="left">
-                    <img src="/ham.svg" alt="" tabIndex={0} />
+                    <img src="/ham.svg" alt="" tabIndex={0} onClick = {openNav}/>
                     <h1>EMBRACE</h1>
                 </div>
-                <nav>
+                <nav ref = {navRef}>
                     <ul>
                         <li><a href="/">HOME</a></li>
                         <li><a href="/aboutus">ABOUT US</a></li>

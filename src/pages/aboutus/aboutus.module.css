@@ -90,3 +90,49 @@ main.aboutus {
 .aboutus .content img {
     max-width: 100%;
 }
+
+
+@media (max-width: 600px) {
+    .aboutus .heading .container h1 {
+        font-size: 45px
+    }
+
+    .aboutus .heading .container h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .aboutus .content p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .aboutus .heading .container h1 {
+        font-size: 35px;
+    }
+
+    .aboutus .heading .container h2 {
+        font-size: 18px;
+    }
+}
+
+
+/* CARDS */
+
+@media (max-width: 700px) {
+    .aboutus .content .cards .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutus .content .cards .card {
+        width: 95%;
+        max-width: 300px;
+    }
+}

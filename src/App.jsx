@@ -12,8 +12,8 @@ import Nodalcentres from './pages/nodalcentres/nodalcentres'
 import Resources from './pages/resources/resources'
 import Getinvolved from './pages/getinvolved/getinvolved'
 import Gallery from './pages/gallery/gallery'
-import Blogs from './pages/blogs/blogs'
-import Blog from './pages/blogs/blog'
+// import Blogs from './pages/blogs/blogs'
+// import Blog from './pages/blogs/blog'
 
 function App() {
 	return (
@@ -25,8 +25,8 @@ function App() {
 				<Route path = "/centres" element={<Nodalcentres />}/>
 				<Route path = "/resources" element={<Resources />}/>
 				<Route path = "/involve" element={<Getinvolved />}/>
-				<Route path="/blog" element={<Blog />} />
-          		<Route path="/blog/:slug" element={<Blogs />} />
+				{/* <Route path="/blog" element={<Blog />} />
+          		<Route path="/blog/:slug" element={<Blogs />} /> */}
 				<Route path = "/gallery" element={<Gallery />}/>
 				<Route path = "/contact" element={<Contact />}/>
 			</Routes>
