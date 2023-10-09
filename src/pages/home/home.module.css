@@ -16,28 +16,30 @@
     overflow: hidden;
 }
 
-.home .cover .antenna {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 80%;
-    transform: translateX(50%);
-}
-
 .home .cover .content {
     /* background-color: rgba(255, 255, 255, 0.4); */
     padding-left: 70px;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    position: absolute;
+    z-index: 10;
 }
 
-.home .cover .content img {
+.home .cover .illustration {
     width: 500px;
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 1;
+}
+
+.home .cover .antenna {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    transform: translateX(50%);
 }
 
 .home .cover h1 {
@@ -151,4 +153,108 @@
     align-items: left;
     text-align: left;
     padding-top: 50px
+}
+
+
+
+
+/* COVER  */
+
+
+@media (max-width: 1200px) {
+    .home .cover .illustration {
+        width: 400px;
+        max-width: 80%;
+    }
+
+    .home .cover .antenna {
+        width: 300px;
+        max-width: 80%;
+    }
+
+    .home .cover h1 {
+        font-size: 60px;
+    }
+
+    .home .cover h2 {
+        font-size: 25px;
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .home .cover {
+        align-items: center;
+        justify-content: left;
+        padding-top: calc(var(--header-height) + 100px);
+    }
+
+    .home .cover .content {
+        padding: 0;
+    }
+
+    .home .cover .illustration, .home .cover .antenna {
+        opacity: 0.6;
+        left: 50%;
+    }
+
+    .home .cover h1, .home .cover h2 {
+        text-align: center;
+    }
+
+    .home .cover .illustration {
+        transform: translateX(-50%);
+    }
+
+    .home .cover .antenna {
+        transform: translateX(15%);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .home .cover {
+        padding-top: calc(var(--header-height) + 150px);
+        background: linear-gradient(to right, #148CA3 30%, #064689);
+    }
+
+    .home .cover .illustration, .home .cover .antenna {
+        opacity: 0.4;
+    }
+
+    .home .cover h1 {
+        font-size: 50px;
+    }
+
+    .home .cover h2 {
+        font-size: 23px;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home .cover h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* ABOUT SECTION */
+
+@media (max-width: 550px) {
+    .home .about .content div h1 {
+        font-size: 35px;
+    }
+    
+    .home .about .content div h2 {
+        font-size: 18px;
+    }
+    
+    .home .about .content div p {
+        font-size: 17px;
+    }
 }

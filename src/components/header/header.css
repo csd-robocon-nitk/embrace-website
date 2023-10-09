@@ -109,7 +109,7 @@ header nav ul li a:hover::after {
 
 @media (max-width: 920px) {
     :root {
-        --header-height: 80px;
+        --header-height: 70px;
     }
 
     header {
