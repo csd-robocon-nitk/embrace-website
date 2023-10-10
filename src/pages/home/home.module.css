@@ -27,6 +27,12 @@
     z-index: 10;
 }
 
+.home .cover #logo {
+    width: 300px;
+    filter: invert(100%) hue-rotate(100deg);
+    margin-bottom: 20px;
+}
+
 .home .cover .illustration {
     width: 500px;
     position: absolute;
@@ -91,6 +97,7 @@
     width: 95%;
     max-width: 700px;
     margin: 80px auto;
+    padding: 0px 10px;
     border-radius: 15px;
     display: flex;
     align-items: left;
@@ -108,31 +115,109 @@
 .home .about .content div p{
     font-size: 20px;
     text-align: justify;
+    line-height: 170%;
 }
 
 
 
-.home .key{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 100vh;
+.initiatives {
+    /* background-color: #ccdbf8; */
+    background-color: #d5e5ff;
+    color: var(--dark-text);
+    padding: 40px 50px;
+}
+
+.initiatives .container {
     display: flex;
-    /* justify-content: center; */
-    align-items: left;
-    /* flex-direction: column; */
-    text-align: left;
-    color: rgb(0, 0, 70);    
+    justify-content: center;
 }
 
-.home .key .content {
-    /* background-color: rgba(255, 255, 255, 0.4); */
-    width: 55%;
-    padding-left: 70px;
-    border-radius: 15px;
-    display: flex;
-    align-items: left;
-    text-align: left;
-    padding-top: 50px
+.initiatives h1 {
+    font-size: 45px;
+    margin-bottom: 70px;
+    margin-left: 100px;
 }
+
+.initiatives .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 40px;
+    row-gap: 10px;
+    margin: 50px 0px;
+}
+
+.initiatives .content .section {
+    padding: 40px 20px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 200ms;
+    border-radius: 10px;
+
+    --base-delay: 100ms;
+    visibility: hidden;
+}
+
+.initiatives .content .section.visible {
+    visibility: visible;
+}
+
+.initiatives .content .section h2 {
+    font-size: 35px;
+    border-radius: 50%;
+    border: 5px solid var(--dark-text);
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.initiatives .content .section p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.initiatives .content .section:hover {
+    /* border-color: #dddddd; */
+    box-shadow: #001d5360 0px 0px 3px 3px;
+}
+
+
+.initiatives .content .section:nth-child(1) {
+    --animate-delay: calc(1 * var(--base-delay));
+}
+
+.initiatives .content .section:nth-child(2) {
+    --animate-delay: calc(2 * var(--base-delay));
+}
+
+.initiatives .content .section:nth-child(3) {
+    --animate-delay: calc(3 * var(--base-delay));
+}
+
+.initiatives .content .section:nth-child(4) {
+    --animate-delay: calc(4 * var(--base-delay));
+}
+
+.initiatives .content .section:nth-child(5) {
+    --animate-delay: calc(5 * var(--base-delay));
+}
+
+
+
+
+
+
+
+
 
 .home .testimonials{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

@@ -9,7 +9,7 @@ export default function Header () {
     useEffect(() => {
         document.addEventListener("click", () => setNavbarOpen(false))
         navRef.current.addEventListener("click", (e) => e.stopPropogation())
-    })
+    }, [])
 
     function openNav (e) {
         if (!navbarOpen) {
@@ -39,7 +39,7 @@ export default function Header () {
             <div className="content">
                 <div className="left">
                     <img src="/ham.svg" alt="" tabIndex={0} onClick = {openNav}/>
-                    <h1>EMBRACE</h1>
+                    <img src="/logo.png" alt="" id = "logo" />
                 </div>
                 <nav ref = {navRef}>
                     <ul>
