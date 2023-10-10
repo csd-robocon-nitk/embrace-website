@@ -4,7 +4,8 @@
 	--light-text: #dddddd;
 	--dark-text: #000046;
 	--bg-light-blue: #66a7d2;
-	--bg-dark-blue: rgb(13, 13, 105);
+	--bg-dark-blue: #001d53;
+	/* --bg-dark-blue: #0d0d69; */
 
 	--accent: #070067;
 	--accent-transparent: #2a229684;
@@ -12,7 +13,7 @@
 
 body {
 	font-family: 'Fira Sans', sans-serif;
-	background-color: #cadfee;
+	background-color: #ffffff;
 }
 
 * {
