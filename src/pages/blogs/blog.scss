@@ -1,0 +1,186 @@
+@import '../../colors.scss';
+
+.blogDiv {
+    min-height: 100vh;
+    padding: 100px;
+
+    @media only screen and (max-width: 600px) {
+        padding: 100px 50px;
+    }
+
+    .blogContent {
+
+        margin-top: 40px;
+        overflow: hidden;
+        max-width: 1000px;
+        margin: auto;
+
+        > * {
+            margin-left: 200px; 
+            margin-right: 200px; 
+
+            @media only screen and (max-width: 1200px) {
+                margin-left: 100px; 
+                margin-right: 100px; 
+            }
+            @media only screen and (max-width: 900px) {
+                margin-left: 0px; 
+                margin-right: 0px; 
+            }
+        }
+
+        a {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        .tagsRow{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            a {
+                margin-right: 15px;
+                text-transform: uppercase;
+                color: $purple;
+                margin-bottom: 0;
+                font-size: smaller;
+                font-weight: 500;
+                background-color: $green;
+                padding: 3px 6px;
+                border-radius: 4px;
+                color: black;
+                font-weight: 600; 
+                font-size: .7em;
+                box-shadow: none;
+                transition: all 0.4s;
+                text-decoration: none;
+
+                &:hover {
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                }
+            }
+        }
+        .title {
+            font-size: 2.4em;
+            margin-top: 10px;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.8em;
+            }
+        }
+        .borderRow {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            margin-bottom: 30px;
+
+            .left{
+                width: 5px;
+                background-color: $green;
+                border-radius: 5px;
+                // height: 100%;
+            }
+            > .right {
+                flex: 1;
+                padding-left: 20px;
+                // border-left: 5px solid $green;
+
+                .desc {
+                    color: rgb(104, 104, 104);
+                    margin-top: 0;
+                }
+                .authorDiv {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 0px;
+                    margin-top: 30px;
+        
+                    .imgDiv {
+                        background-size: cover;
+                        border-radius:50% 50% 50% 50%;
+                        width:60px;
+                        height:60px;
+                    }
+                    .right{
+                        margin: 0 10px;
+        
+                        h3 {
+                            margin: 0 0;
+                        }
+                        p {
+                            margin: 0 0;
+                            font-size: small;
+                            color: rgb(104, 104, 104);
+                        }
+                    }
+        
+                }
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            margin-left: 0; 
+            margin-right: 0; 
+            box-sizing: border-box;
+
+            @media only screen and (min-width: 1500px) {
+                // padding-left: 200px; 
+                // padding-right: 200px; 
+            }
+        }
+        figure {
+            width: 100%;
+            height: auto;
+            margin-left: 0; 
+            margin-right: 0; 
+        }
+
+        .blogShareDiv {
+            margin-top: 50px;
+
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+    .otherBlogsSection {
+        margin-top: 100px;
+
+        h1 {
+            font-size: 2.4em;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.8em;
+            }
+        }
+    }
+
+    > svg {
+        position: fixed;
+        width: 100vw;
+        bottom: -20px;
+        left: 0;
+
+        @media only screen and (max-width: 1700px) {
+            bottom: -15px;
+        }
+        @media only screen and (max-width: 1400px) {
+            bottom: -10px;
+        }
+        @media only screen and (max-width: 1200px) {
+            bottom: -5px;
+        }
+    }
+
+    .line{
+        position: fixed;
+        height: 40px;
+        width: 100vw;
+        bottom: 0;
+        left: 0;
+        background-color: $green;
+    }
+}

@@ -1,0 +1,204 @@
+@import '../../colors.scss';
+
+.searchbarDiv {
+    padding: 20px 30px;
+    background-color: $lightBlue;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto;
+    transition: height 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .searchBarRow {
+        display: flex;
+        flex-direction: row;
+
+        @media only screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+
+        input {
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 1.2em;
+            margin-right: 10px;
+
+            @media only screen and (max-width: 1000px) {
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+    
+            &:focus {
+                outline: none;
+                border: none;
+            }
+        }
+        .inputField {
+            width: 300px;
+            box-sizing: border-box;
+
+            @media only screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+    }
+    p {
+        transition: all .4s ease;
+        max-height: 50px;
+        box-sizing: border-box;
+        margin-bottom: 0;
+    }
+    p.hide{
+        max-height: 0;
+        margin: 0;
+        // padding: 0;
+        opacity: 0;
+    }
+}
+.noResultDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+
+    p {
+        margin-right: 5px;
+    }
+}
+
+.blogCardsDiv {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat( auto-fill, minmax( 350px, 1fr) );
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;   
+
+
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr) );
+    }
+    @media only screen and (max-width: 400px) {
+        grid-template-columns: repeat( auto-fit, minmax( 150px, 1fr) );
+    }
+
+}
+
+
+.blogCardDiv {
+    // min-height: 100px;
+    // background-color:red;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: black;
+    transition: all 0.4s;
+    // height: 100vh
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    .imgDiv {
+        // background-color:green;
+        flex: 2;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .contentDiv {
+        background-color: $lightBlue;
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-top: 20px;
+
+        .detailsDiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .lable {
+                width: max-content;
+            }
+        }
+
+        h3 {
+            font-size: 1em;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0 20px;
+        }
+        p {
+            font-size: small;
+            padding: 0 20px;
+        }
+        > p {
+            flex: 1;
+        }
+
+        .blogCardFooterDiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            // align-items: flex-center;
+            box-sizing: border-box;
+            padding-top: 0;
+
+            .left {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                padding-left: 20px;
+                border-top: 1px solid #DFDFDF;
+                flex: 1;
+
+                img {
+                    height: 2em;
+                    // size: 1em;
+                }
+                p {
+                    padding-left: 10px;
+                    text-transform: capitalize;
+                }
+            }
+            .right{
+                display: flex;
+                justify-content: flex-center;
+                align-items: center;
+                padding-right: 20px;
+                padding-left: 20px;
+                border-left: 1px solid #DFDFDF;
+                background-color: $lightBlue;
+                transition: all 0.4s;
+                border-top: 1px solid #DFDFDF;
+
+                // &:hover {
+                //     background-color: $green;
+                // }
+                img {
+                    height: .8em;
+                }
+            }
+        }
+    }
+    &:hover {
+        #rightHover {
+            background-color: $green;
+        }
+    }
+}
+
+a {
+    text-decoration: none
+}

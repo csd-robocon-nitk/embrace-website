@@ -1,8 +1,164 @@
 main.contact {
-    height: 100vh;
-    background: linear-gradient(var(--bg-light-blue) 70%, var(--bg-dark-blue));
-    text-align: center;
+    min-height: 100vh;
+}
+
+.contact .heading {
+    height: 400px;
+    /* background-image: url("/pic.jpg"); */
+    background-color: black;
+    background-size: cover;
+    background-position: 0% 35%;
+}
+
+.contact .heading .container {
+    background-color: #0a0823bb;
+    color: var(--light-text);
+    height: 100%;
+    padding-top: var(--header-height);
+
     display: flex;
+    
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .heading .container h1 {
+    font-size: 60px;
+    text-align: center;
     align-items: center;
+}
+
+.contact .heading .container h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.contact .heading .container div{
+    text-align: left;
+    padding-left: 200px;
+    font-weight: 550;
+}
+.contact .heading .container .address{
+    display: flex;
+}
+.contact .heading .container .address p{
+    padding-left: 1px;
+}
+.contact .heading .container .emailid{
+    display: flex;
+}
+.contact .heading .container .address img{
+    max-width: 40px;
+    max-height: 30px;
+}
+.contact .heading .container .emailid img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+
+.contact .content {
+    padding: 50px 20px;
+    max-width: 850px;
+    margin: 0px auto;
+}
+
+.contact .content h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact .content h2 {
+    text-align: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 30px;
+}
+
+.contact .content p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 170%;
+}
+
+
+
+
+.contact .content .cards {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 2%;
+    margin-bottom: 40px;
+}
+
+.contact .content .cards .card {
+    width: 32%;
+    background-color: hsl(214, 94%, 27%);
+    color: var(--light-text);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 5px #43abc0c3;
+}
+
+.contact .content .cards .card h2 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.contact .content .cards .card p {
+    font-size: 15px;
+}
+
+
+
+.contact .content img {
+    max-width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .contact .heading .container h1 {
+        font-size: 45px
+    }
+
+    .contact .heading .container h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .contact .content p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .contact .heading .container h1 {
+        font-size: 35px;
+    }
+
+    .contact .heading .container h2 {
+        font-size: 18px;
+    }
+}
+
+
+/* CARDS */
+
+@media (max-width: 700px) {
+    .contact .content .cards .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact .content .cards .card {
+        width: 95%;
+        max-width: 300px;
+    }
 }

@@ -132,8 +132,82 @@ export default function Aboutus() {
 			</div>
 
 			<div className={s.content}>
-				<h1>Stakeholders</h1>
+				<h1>Supporting Partners</h1>
 				<img src="/stakeholders.png" alt="" />
+			</div>
+
+			<div className={s.content}>
+				<h1>Team</h1>
+				<h2>Core Team</h2>
+				<div className={s.cards}>
+					<div className={s.card}>
+						<img src="./KVG.png" alt="" />
+						<h2>Dr. K. V. Gangadharan</h2>
+						<p> Project Head
+						</p>
+						<h3>EMBRACE</h3>
+						<div>
+							<a href="mailto:kvganga@nitk.edu.in">
+								<img src="./email.png" id={s.email} alt="Email" />
+							</a>
+							<a href="https://www.linkedin.com/in/kvganga/">
+								<img src="./linkedin.png" alt="LinkedIn" />
+							</a>
+						</div>
+					</div>
+					<div className={s.card}>
+						<img src="./PU.png" alt="" />
+						<h2>Dr. Pruthviraj Umesh</h2>
+						<p> Execution Head
+						</p>
+						<h3>EMBRACE</h3>
+						<div>
+							<a href="mailto:pruthviu@nitk.edu.in">
+								<img src="./email.png" id={s.email} alt="Email" />
+							</a>
+							<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
+								<img src="./linkedin.png" alt="LinkedIn" />
+							</a>
+						</div>
+					</div>
+					<div className={s.card}>
+						<img src="./mohit.jpg" alt="" />
+						<h2>Dr. Mohit P. Tahiliani</h2>
+						<p> Open Source Head
+						</p>
+						<h3>EMBRACE</h3>
+						<div>
+							<a href="mailto:tahiliani@nitk.edu.in">
+								<img src="./email.png" id={s.email} alt="Email" />
+							</a>
+							<a href="https://www.linkedin.com/in/mohittahiliani/">
+								<img src="./linkedin.png" alt="LinkedIn" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<h2>HAM Operating Team</h2>
+				{/* <div class={s.teamcontainer}>
+					<div class={s.member}>
+						<img src="./mohit.jpg" alt="Member 1" class="member-photo" />
+						<div class="member-name">A</div>
+					</div>
+					<div class={s.member}>
+						<img src="./PU.png" alt="Member 2" class="member-photo" />
+						<div class="member-name">John Doe</div>
+					</div>
+					<div class={s.member}>
+						<img src="member3.jpg" alt="Member 3" class="member-photo" />
+						<div class="member-name">John Doe</div>
+					</div>
+					<div class={s.member}>
+						<img src="member4.jpg" alt="Member 4" class="member-photo" />
+						<div class="member-name">John Doe</div>
+					</div>
+				</div> */}
+
+				<h2>Project Managers</h2>
+				<h2>Support Team</h2>
 			</div>
 		</main>
 	)
