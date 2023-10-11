@@ -43,7 +43,7 @@ main.aboutus {
     margin-bottom: 30px;
 }
 
-.aboutus .content h2 {
+.aboutus .content .cards .card h2 {
     text-align: center;
     margin: 30px 0px 40px 0px;
     font-size: 30px;
@@ -72,8 +72,14 @@ main.aboutus {
     background-color: #fbfbfb;
     color: var(--dark-text);
     padding: 20px 20px;
-    border-radius: 10px;
-    box-shadow: -2px 2px 5px 3px #43abc079;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 1px #43abc079;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.aboutus .content .cards .card:hover {
+    box-shadow: -2px 2px 5px 1px #43abc0be;
 }
 
 .aboutus .content .cards .card h2 {
@@ -96,10 +102,6 @@ main.aboutus {
     display: flex;
 }
 
-#email{
-    filter: invert(100%);
-}
-
 .aboutus .content .cards .card div a img{
     align-items: center;
     max-width: 50px;
@@ -118,33 +120,120 @@ main.aboutus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-.aboutus .content .member {
-text-align: center;
-position: relative;
 }
 
-.aboutus .content .member-photo {
-width: 100px;
-height: 100px;
-border-radius: 50%;
+
+
+.aboutus .coreteam {
+    margin-bottom: 80px;
 }
 
-.aboutus .content .member-name {
-margin-top: 10px;
+.aboutus .coreteam h1 {
+    font-size: 40px;
 }
 
-/* Web-like connecting lines */
-.aboutus .content .member::before {
-content: '';
-position: absolute;
-top: 0;
-left: 50%;
-border: 2px solid #333; /* Change color as needed */
-transform: translateX(-50%);
+.aboutus .content h2 {
+    margin: 30px 0px;
 }
-  
+
+.aboutus .coreteam .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutus .coreteam .cards .card h2 {
+    margin-bottom: 0px;
+}
+
+.aboutus .coreteam .cards .card>img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.aboutus .coreteam .cards .card .designation {
+    display: block;
+}
+
+#email{
+    filter: invert(100%);
+}
+
+
+
+.aboutus .content .otherteam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+}
+
+.aboutus .content .otherteam .member {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.aboutus .content .otherteam .member img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid #002261;
+    transition: 400ms;
+}
+
+.aboutus .content .otherteam .member div {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%) translateY(5px);
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 5px 2px #dddddd;
+    padding: 10px 50px;
+    display: none;
+    opacity: 0;
+}
+
+.aboutus .content .otherteam .member div::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #fbfbfb;
+    box-shadow: -1px -1px 1px 0px #dddddd;
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-100%) translateX(-50%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.aboutus .content .otherteam .member:hover div {
+    display: block;
+    animation-name: fadein;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+} 
+
+.aboutus .content .otherteam .member div h3 {
+    font-size: 18px;
+}
+
+.aboutus .content .otherteam .member div p {
+    font-size: 15px;
+}
+
 
 
 @media (max-width: 600px) {
