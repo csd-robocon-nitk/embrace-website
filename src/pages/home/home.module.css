@@ -1,7 +1,8 @@
 .home .cover {
     height: 100vh;
     height: 100svh;
-    padding-top: var(--header-height);
+    /* padding-top: var(--header-height); */
+    padding-top: 30px;
     background: linear-gradient(to right, hsl(190, 78%, 36%) 30%, hsl(214, 94%, 27%));
     /* background-image: url("/pic.jpg"); */
     /* background-size: cover; */
@@ -19,10 +20,10 @@
 
 .home .cover .content {
     /* background-color: rgba(255, 255, 255, 0.4); */
-    padding-left: 70px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
+    padding-left: 60px;
+    border-radius: 20px;
+    display: table-column;
+    align-items: left;
     position: absolute;
     z-index: 10;
 }
@@ -61,17 +62,19 @@
     /* text-align: center; */
 }
 .home .cover h2 {
-    font-size: 30px;
+    font-size: 35px;
     /* background-color: black; */
     /* text-transform: uppercase; */
     /* text-align: center; */
     max-width: 800px;
-    font-weight: normal;
+    font-weight: 500;
 }
 .home .cover h3 {
-    font-size: 35px;
+    font-size: 25px;
     /* background-color: black; */
     text-transform: capitalize;
+    font-weight: 400;
+    /* font-weight: bold; */
 }
 
 .home .cover span{

@@ -69,11 +69,11 @@ main.aboutus {
 
 .aboutus .content .cards .card {
     width: 32%;
-    background-color: hsl(214, 94%, 27%);
-    color: var(--light-text);
+    background-color: #fbfbfb;
+    color: var(--dark-text);
     padding: 20px 20px;
     border-radius: 10px;
-    box-shadow: -3px 3px 5px #43abc0c3;
+    box-shadow: -2px 2px 5px 3px #43abc079;
 }
 
 .aboutus .content .cards .card h2 {
@@ -83,13 +83,68 @@ main.aboutus {
 
 .aboutus .content .cards .card p {
     font-size: 15px;
+    text-align: center;
+    /* text-rendering: auto;
+    text-indent: 2px; */
 }
 
+.aboutus .content .cards .card h3{
+    text-align: center;
+}
 
+.aboutus .content .cards .card div{
+    display: flex;
+}
+
+#email{
+    filter: invert(100%);
+}
+
+.aboutus .content .cards .card div a img{
+    align-items: center;
+    max-width: 50px;
+    max-height: 20px;
+}
+.aboutus .content .cards .card div a{
+    align-items: center;
+}
 
 .aboutus .content img {
     max-width: 100%;
+    align-items: center;
 }
+
+.aboutus .content .teamcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.aboutus .content .member {
+text-align: center;
+position: relative;
+}
+
+.aboutus .content .member-photo {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+.aboutus .content .member-name {
+margin-top: 10px;
+}
+
+/* Web-like connecting lines */
+.aboutus .content .member::before {
+content: '';
+position: absolute;
+top: 0;
+left: 50%;
+border: 2px solid #333; /* Change color as needed */
+transform: translateX(-50%);
+}
+  
 
 
 @media (max-width: 600px) {

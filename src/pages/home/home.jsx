@@ -45,9 +45,10 @@ export default function Home() {
 							<span> A</span>pplications for
 							<span> C</span>ommunity
 							<span> E</span>mpowerment
-						</h2>
+						</h2><br /><br />
+						<h3>Empowering Communities through Disaster Resilience and Education</h3>
 					</div>
-					{/* <h3>Empowering Communities through Disaster Resilience and Education</h3> */}
+					
 				</div>
 			</div>
 			<div className={s.about}>

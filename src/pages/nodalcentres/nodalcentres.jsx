@@ -10,7 +10,7 @@ export default function Nodalcentres() {
     // Simulate a delay, e.g., fetching data
     setTimeout(() => {
       setLoading(false); // Set loading to false when done loading
-    }, 2000); // Simulate a 3-second loading time
+    }, 1000); // Simulate a 3-second loading time
   }, []);
 
   return (
