@@ -138,76 +138,154 @@ export default function Aboutus() {
 
 			<div className={s.content}>
 				<h1>Team</h1>
-				<h2>Core Team</h2>
-				<div className={s.cards}>
-					<div className={s.card}>
-						<img src="./KVG.png" alt="" />
-						<h2>Dr. K. V. Gangadharan</h2>
-						<p> Project Head
-						</p>
-						<h3>EMBRACE</h3>
-						<div>
-							<a href="mailto:kvganga@nitk.edu.in">
-								<img src="./email.png" id={s.email} alt="Email" />
-							</a>
-							<a href="https://www.linkedin.com/in/kvganga/">
-								<img src="./linkedin.png" alt="LinkedIn" />
-							</a>
+				<div className={s.coreteam}>
+					<h2>Core Team</h2>
+					<div className={s.cards}>
+						<div className={s.card}>
+							<img src="./KVG.png" alt="" />
+							<h2>Dr. K. V. Gangadharan</h2>
+							<div className={s.designation}>
+								<p>Project Head</p>
+								<h3>EMBRACE</h3>
+							</div>
+							<div>
+								<a href="mailto:kvganga@nitk.edu.in">
+									<img src="./email.png" id={s.email} alt="Email" />
+								</a>
+								<a href="https://www.linkedin.com/in/kvganga/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
 						</div>
-					</div>
-					<div className={s.card}>
-						<img src="./PU.png" alt="" />
-						<h2>Dr. Pruthviraj Umesh</h2>
-						<p> Execution Head
-						</p>
-						<h3>EMBRACE</h3>
-						<div>
-							<a href="mailto:pruthviu@nitk.edu.in">
-								<img src="./email.png" id={s.email} alt="Email" />
-							</a>
-							<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
-								<img src="./linkedin.png" alt="LinkedIn" />
-							</a>
+						<div className={s.card}>
+							<img src="./PU.png" alt="" />
+							<h2>Dr. Pruthviraj Umesh</h2>
+							<div className={s.designation}>
+								<p>Execution Head</p>
+								<h3>EMBRACE</h3>
+							</div>
+							<div>
+								<a href="mailto:pruthviu@nitk.edu.in">
+									<img src="./email.png" id={s.email} alt="Email" />
+								</a>
+								<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
 						</div>
-					</div>
-					<div className={s.card}>
-						<img src="./mohit.jpg" alt="" />
-						<h2>Dr. Mohit P. Tahiliani</h2>
-						<p> Open Source Head
-						</p>
-						<h3>EMBRACE</h3>
-						<div>
-							<a href="mailto:tahiliani@nitk.edu.in">
-								<img src="./email.png" id={s.email} alt="Email" />
-							</a>
-							<a href="https://www.linkedin.com/in/mohittahiliani/">
-								<img src="./linkedin.png" alt="LinkedIn" />
-							</a>
+						<div className={s.card}>
+							<img src="./mohit.jpg" alt="" />
+							<h2>Dr. Mohit P. Tahiliani</h2>
+							<div className={s.designation}>
+								<p>Open Source Head</p>
+								<h3>EMBRACE</h3>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img src="./email.png" id={s.email} alt="Email" />
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<h2>HAM Operating Team</h2>
-				{/* <div class={s.teamcontainer}>
+				<div class={s.otherteam}>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 1" class="member-photo" />
-						<div class="member-name">A</div>
+						<img src="./mohit.jpg" alt="Member 1" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 2" class="member-photo" />
-						<div class="member-name">John Doe</div>
+						<img src="./PU.png" alt="Member 2" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
 					</div>
 					<div class={s.member}>
-						<img src="member3.jpg" alt="Member 3" class="member-photo" />
-						<div class="member-name">John Doe</div>
+						<img src="./mohit.jpg" alt="Member 3" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
 					</div>
 					<div class={s.member}>
-						<img src="member4.jpg" alt="Member 4" class="member-photo" />
-						<div class="member-name">John Doe</div>
+						<img src="./PU.png" alt="Member 4" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
 					</div>
-				</div> */}
+				</div>
 
 				<h2>Project Managers</h2>
+				<div class={s.otherteam}>
+					<div class={s.member}>
+						<img src="./mohit.jpg" alt="Member 1" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./PU.png" alt="Member 2" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./mohit.jpg" alt="Member 3" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./PU.png" alt="Member 4" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+				</div>
+
 				<h2>Support Team</h2>
+				<div class={s.otherteam}>
+					<div class={s.member}>
+						<img src="./mohit.jpg" alt="Member 1" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./PU.png" alt="Member 2" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./mohit.jpg" alt="Member 3" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+					<div class={s.member}>
+						<img src="./PU.png" alt="Member 4" />
+						<div>
+							<h3>John Doe</h3>
+							<p>Designation</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 	)

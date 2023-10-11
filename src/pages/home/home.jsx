@@ -214,32 +214,32 @@ export default function Home() {
 				<h1>Key Initiatives</h1>
                 <div className={s.content} ref = {initiativesRef}>
                     <div className={initiativesClass}>
-                        <h2>I</h2>
+                        <img src="/initiatives/icons/001.png" alt="" />
                         <p>
                             Establishing an On-Campus Infrastructure for Amateur
                             Radio
                         </p>
                     </div>
                     <div className={initiativesClass}>
-                        <h2>II</h2>
+                        <img src="/initiatives/icons/002.png" alt="" />
                         <p>
                         Establishing a Centre for Experiential Learning in Amateur Radio
                         </p>
                     </div>
                     <div className={initiativesClass}>
-                        <h2>III</h2>
+                        <img src="/initiatives/icons/003.png" alt="" />
                         <p>
                         Bringing HAM Radio Knowledge and Technology to the Masses
                         </p>
                     </div>
                     <div className={initiativesClass}>
-                        <h2>IV</h2>
+                        <img src="/initiatives/icons/002.png" alt="" />
                         <p>
                         Expanding HAM Radio Access: 15 Nodal centres for Skill Development
                         </p>
                     </div>
                     <div className={initiativesClass}>
-                        <h2>V</h2>
+                        <img src="/initiatives/icons/001.png" alt="" />
                         <p>
                         Mobile HAM Solutions: Electric Transport for Communication
                         </p>

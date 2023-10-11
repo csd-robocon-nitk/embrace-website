@@ -162,3 +162,74 @@ main.contact {
         max-width: 300px;
     }
 }
+
+
+
+
+.contact .form {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.contact .form div {
+    padding-top: 100px;
+}
+
+.contact .form h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.contact .form h2 {
+    font-weight: 400;
+}
+
+
+.contact form {
+    width: 50%;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+.contact label {
+    color: var(--dark-text);
+    margin: 0;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    transition: border-color 300ms;
+}
+
+.contact input:focus, .contact textarea:focus {
+    border-color: var(--bg-dark-blue);
+    border-width: 2px;
+    outline: none;
+}
+
+.contact textarea {
+    height: 130px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 13px 0px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: var(--bg-dark-blue);
+    color: var(--light-text);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 300ms opacity;
+}
+
+.contact button:hover {
+    opacity: 0.9;
+}
