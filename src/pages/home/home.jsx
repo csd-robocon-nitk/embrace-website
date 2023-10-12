@@ -2,28 +2,9 @@ import { useRef } from 'react'
 import s from './home.module.css'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import Initiatives from './initiatives/initiatives'
 
 export default function Home() {
-
-    let initiativesRef = useRef()
-    let [ initiativesVisible, setInitiativesVisible ] = useState(false)
-
-    let initiativesClass = `${s.section} ${initiativesVisible ? "animate__animated animate__zoomIn animate__delay-2s " + s.visible : ""}`
-
-    useEffect(() => {
-        function initiativesCallback (entries, observer) {
-            entries.forEach(e => {
-                if (e.isIntersecting) {
-                    setInitiativesVisible(true)
-                    observer.disconnect()
-                }
-            })
-        }
-
-        let observer = new IntersectionObserver(initiativesCallback)
-
-        observer.observe(initiativesRef.current)
-    }, [])
 
 	return (
 		<main className={s.home}>
@@ -210,42 +191,7 @@ export default function Home() {
 				</div>
 			</div> */}
 
-			<div className={s.initiatives}>
-				<h1>Key Initiatives</h1>
-                <div className={s.content} ref = {initiativesRef}>
-                    <div className={initiativesClass}>
-                        <img src="/initiatives/icons/001.png" alt="" />
-                        <p>
-                            Establishing an On-Campus Infrastructure for Amateur
-                            Radio
-                        </p>
-                    </div>
-                    <div className={initiativesClass}>
-                        <img src="/initiatives/icons/002.png" alt="" />
-                        <p>
-                        Establishing a Centre for Experiential Learning in Amateur Radio
-                        </p>
-                    </div>
-                    <div className={initiativesClass}>
-                        <img src="/initiatives/icons/003.png" alt="" />
-                        <p>
-                        Bringing HAM Radio Knowledge and Technology to the Masses
-                        </p>
-                    </div>
-                    <div className={initiativesClass}>
-                        <img src="/initiatives/icons/002.png" alt="" />
-                        <p>
-                        Expanding HAM Radio Access: 15 Nodal centres for Skill Development
-                        </p>
-                    </div>
-                    <div className={initiativesClass}>
-                        <img src="/initiatives/icons/001.png" alt="" />
-                        <p>
-                        Mobile HAM Solutions: Electric Transport for Communication
-                        </p>
-                    </div>
-                </div>
-			</div>
+			<Initiatives />
 
 			<div className={s.testimonials}>
 				<div className={s.content}>
