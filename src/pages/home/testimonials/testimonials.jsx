@@ -26,7 +26,7 @@ export default function Testimonials() {
 						<h2>
 							~
 							<p>
-								Veeramuneeswaran p
+								Veeramuneeswaran P
 								<br />
 								Electrical and Electronics engineering
 								<br />
