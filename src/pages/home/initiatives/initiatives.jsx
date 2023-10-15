@@ -2,11 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import s from './initiatives.module.css'
 
 export default function Initiatives() {
-	let initiativesRef = useRef()
-	let [initiativesVisible, setInitiativesVisible] = useState(false)
-
-	let initiativesClass = `${s.section} ${initiativesVisible ? 'animate__animated animate__zoomIn animate__delay-2s ' + s.visible : ''}`
-    let initiativesClassActive = `${initiativesClass} ${s.active}`
+	let getClasses = i => `${s.section} ${i == selected ? s.active : ""}`
 
 	let [selected, setSelected] = useState(0)
 
@@ -15,31 +11,15 @@ export default function Initiatives() {
 		else setSelected(i)
 	}
 
-	useEffect(() => {
-		function initiativesCallback(entries, observer) {
-			entries.forEach((e) => {
-				if (e.isIntersecting) {
-					setInitiativesVisible(true)
-					observer.disconnect()
-				}
-			})
-		}
-
-		let observer = new IntersectionObserver(initiativesCallback)
-
-		observer.observe(initiativesRef.current)
-	}, [])
-
 	return (
 		<div className={s.initiatives}>
 			<h1>Key Initiatives</h1>
 			<div className={s.content}>
 				<div
 					className={`${s.left} ${selected != 0 ? s.small : ''}`}
-					ref={initiativesRef}
 				>
 					<div
-						className={selected == 1 ? initiativesClassActive : initiativesClass}
+						className={getClasses(1)}
 						onClick={() => handleClick(1)}
 					>
 						<img src="/initiatives/icons/001.png" alt="" />
@@ -49,7 +29,7 @@ export default function Initiatives() {
 						</p>
 					</div>
 					<div
-						className={selected == 2 ? initiativesClassActive : initiativesClass}
+						className={getClasses(2)}
 						onClick={() => handleClick(2)}
 					>
 						<img src="/initiatives/icons/002.png" alt="" />
@@ -59,7 +39,7 @@ export default function Initiatives() {
 						</p>
 					</div>
 					<div
-						className={selected == 3 ? initiativesClassActive : initiativesClass}
+						className={getClasses(3)}
 						onClick={() => handleClick(3)}
 					>
 						<img src="/initiatives/icons/003.png" alt="" />
@@ -69,7 +49,7 @@ export default function Initiatives() {
 						</p>
 					</div>
 					<div
-						className={selected == 4 ? initiativesClassActive : initiativesClass}
+						className={getClasses(4)}
 						onClick={() => handleClick(4)}
 					>
 						<img src="/initiatives/icons/002.png" alt="" />
@@ -79,7 +59,7 @@ export default function Initiatives() {
 						</p>
 					</div>
 					<div
-						className={selected == 5 ? initiativesClassActive : initiativesClass}
+						className={getClasses(5)}
 						onClick={() => handleClick(5)}
 					>
 						<img src="/initiatives/icons/001.png" alt="" />

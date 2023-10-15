@@ -37,10 +37,10 @@ export default function Home() {
 					<div>
 						<h1>About Us</h1>
 						<br />
-						<h2>
+						{/* <h2>
 							Empowering Communities through Disaster Resilience
 							and Education
-						</h2>
+						</h2> */}
 						<br />
 						<p>
 							EMBRACE aims to address several interconnected goals
