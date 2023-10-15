@@ -126,37 +126,6 @@
 
 
 
-
-
-
-
-
-
-.home .testimonials{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 100vh;
-    display: flex;
-    /* justify-content: center; */
-    align-items: left;
-    /* flex-direction: column; */
-    text-align: left;
-    color: rgb(0, 0, 70);    
-}
-
-.home .testimonials .content {
-    /* background-color: rgba(255, 255, 255, 0.4); */
-    width: 55%;
-    padding-left: 70px;
-    border-radius: 15px;
-    display: flex;
-    align-items: left;
-    text-align: left;
-    padding-top: 50px
-}
-
-
-
-
 /* COVER  */
 
 
