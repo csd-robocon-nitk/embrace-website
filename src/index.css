@@ -21,8 +21,9 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
-#favicon {
-    display: block;
-    height: 80%;
-    margin-bottom: 10px;
+
+@media (any-hover: none) {
+	* {
+		cursor: default !important;
+	}
 }
