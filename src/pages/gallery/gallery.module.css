@@ -1,8 +1,59 @@
-main.gallery {
-    height: 100vh;
-    background: linear-gradient(var(--bg-light-blue) 70%, var(--bg-dark-blue));
-    text-align: center;
+.gallery {
+    min-height: calc(100vh - 70px);
+}
+
+.gallery #container {
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 50px 20px;
+}
+
+
+.gallery #heading {
+    height: 300px; 
+    padding-top: var(--header-height);
+    background-color: rgb(7, 6, 25);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gallery #heading h2 {
+    color: var(--light-text);
+    font-size: 60px;
+}
+
+
+
+
+.gallery #grid {
+    columns: 3;
+    gap: 10px;
+}
+
+.gallery #grid img {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #aaaaaa;
+}
+
+
+@media (max-width: 700px) {
+    .gallery #heading h2 {
+        font-size: 50px;
+    }
+
+    .gallery #grid {
+        columns: 2;
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery #heading h2 {
+        font-size: 40px;
+    }
+
+    .gallery #grid {
+        columns: 1;
+    }
 }
