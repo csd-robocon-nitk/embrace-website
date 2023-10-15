@@ -36,13 +36,6 @@
     cursor: pointer;
     transition: box-shadow 100ms, gap var(--transition-duration), padding var(--transition-duration);
     border-radius: 10px;
-
-    --base-delay: 100ms;
-    visibility: hidden;
-}
-
-.initiatives .left .section.visible {
-    visibility: visible;
 }
 
 .initiatives .left .section img {
@@ -128,27 +121,4 @@
 
 .initiatives .right.open {
     transform: translateX(0);
-}
-
-
-
-
-.initiatives .left .section:nth-child(1) {
-    --animate-delay: calc(1 * var(--base-delay));
-}
-
-.initiatives .left .section:nth-child(2) {
-    --animate-delay: calc(2 * var(--base-delay));
-}
-
-.initiatives .left .section:nth-child(3) {
-    --animate-delay: calc(3 * var(--base-delay));
-}
-
-.initiatives .left .section:nth-child(4) {
-    --animate-delay: calc(4 * var(--base-delay));
-}
-
-.initiatives .left .section:nth-child(5) {
-    --animate-delay: calc(5 * var(--base-delay));
 }
