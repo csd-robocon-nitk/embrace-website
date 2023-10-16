@@ -1,34 +1,12 @@
 main.nodalcentres {
-    height: 100vh;
-    /* background: linear-gradient(to right, hsl(190, 78%, 36%) 30%, hsl(214, 94%, 27%)); */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
 }
 
-.nodalcentres h1 {
-  color: var(--dark-text);
-}
-
-.iframe-container {
-    display: flex; /* Use flexbox to arrange iframes horizontally */
-    justify-content: space-between; /* Add space between iframes */
-}
-
-/* Style individual iframes */
-iframe {
-    border: 4px solid rgb(0, 0, 0); /* Add a border to each iframe */
-    margin-right: 10px; /* Add spacing between iframes */
-    width: 350px; /* Set a specific width for each iframe */
-    height: 350px; /* Set a specific height for each iframe */
-}
 .nodalselect {
     width: 200px; /* Set a specific width for the dropdown */
     padding: 10px; /* Add padding to the dropdown */
     font-size: 16px; /* Adjust the font size */
     border: 1px solid #ccc; /* Add a border */
-    border-radius: 5px; /* Add border radius for rounded corners */
     background-color: #fff; /* Set background color */
     color: #333; /* Set text color */
     cursor: pointer; /* Show a pointer cursor on hover */
@@ -45,4 +23,102 @@ label {
   margin-bottom: 10px; /* Add space below the label */
   display: block;
   text-transform: uppercase;
+}
+.nodalcentres .heading {
+    height: 350px;
+    /* background-image: url("/pic.jpg"); */
+    background-color: black;
+    background-size: cover;
+    background-position: 0% 35%;
+}
+
+.nodalcentres .heading .container {
+    background-color: #0a0823bb;
+    color: var(--light-text);
+    height: 100%;
+    padding-top: var(--header-height);
+
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nodalcentres .heading .container h1 {
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.nodalcentres .heading .container h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.nodalcentres .heading .container div{
+    text-align: left;
+    padding-left: 200px;
+    font-weight: 550;
+}
+
+.nodalcentres .content{
+    display: flex;
+}
+
+.nodalcentres .content .right{
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.nodalcentres .content .right img{
+    width: 100%;   
+}
+
+.nodalcentres .content .left{
+    padding-left: 30px;
+}
+
+.nodalcentres .content .left p{
+    font-weight: 750;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.nodalcentres .content .left ul{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 145%;
+}
+
+.nodalcentres .maps .tab {
+    display: none;
+}
+.nodalcentres .maps .map-container {
+    display: flex;
+}
+.nodalcentres .maps .tab-label {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ccc;
+}
+.nodalcentres .maps .map {
+    display: none;
+}
+
+.nodalcentres .maps h1{
+    text-align: center;
+}
+
+@media (max-width:1000px){
+    .nodalcentres .content{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+    .nodalcentres .content .right {
+        width: 100%;
+        max-width: 600px;
+    }
 }
