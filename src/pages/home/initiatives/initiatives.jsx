@@ -34,7 +34,7 @@ export default function Initiatives() {
 			<h1>Key Initiatives</h1>
 			<div className={s.content}>
 				<div
-					className={`${s.left} ${selected != 0 ? s.small : ''}`}
+					className={`${s.left} ${selected != 0 && selected != -1 ? s.small : ''}`}
 				>
 					<div
 						className={getClasses(1)}

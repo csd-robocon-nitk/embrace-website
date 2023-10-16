@@ -186,6 +186,13 @@
 }
 
 
+@media (any-hover: none) {
+    .initiatives .left .section:hover {
+        box-shadow: none;
+    }
+}
+
+
 @keyframes grow {
     0% {
         max-height: 0;
