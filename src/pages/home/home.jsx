@@ -17,20 +17,17 @@ export default function Home() {
 					alt=""
 				/>
 				<div className={s.content}>
-					<div>
-						<br />
-						<h2>
-							<span>E</span>nabling
-							<span> M</span>ulti-disciplinary and
-							<span> B</span>roader
-							<span> R</span>adio
-							<span> A</span>pplications for
-							<span> C</span>ommunity
-							<span> E</span>mpowerment
-						</h2><br /><br />
-						<h3>Empowering Communities through Disaster Resilience and Education</h3>
-					</div>
-					
+					<br />
+					<h2>
+						<span>E</span>nabling
+						<span> M</span>ulti-disciplinary and
+						<span> B</span>roader
+						<span> R</span>adio
+						<span> A</span>pplications for
+						<span> C</span>ommunity
+						<span> E</span>mpowerment
+					</h2><br />
+					<h3>Empowering Communities through Disaster Resilience and Education</h3>					
 				</div>
 			</div>
 			<div className={s.about}>
