@@ -4,12 +4,25 @@ import s from './initiatives.module.css'
 export default function Initiatives() {
 	let getClasses = i => `${s.section} ${i == selected ? s.active : ""}`
 
-	let [selected, setSelected] = useState(0)
+	let [selected, setSelected] = useState(-1)
     let [mobile, setMobile] = useState(window.innerWidth < 1000)
+
+    let refs = (new Array(5)).fill(0).map(i => useRef())
 
     useEffect(() => {
         window.addEventListener("resize", () => setMobile(window.innerWidth < 1000))
     }, [])
+
+    useEffect(() => {
+        if (!mobile) return
+        if (selected == -1) return
+
+        if (selected == 0) 
+            window.scrollTo({ top: refs[0].current.offsetTop - 200, behavior: "smooth" })
+
+        else
+            window.scrollTo({ top: refs[selected-1].current.offsetTop - 100, behavior: "smooth" })
+    }, [selected])
 
 	function handleClick(i) {
 		if (selected == i) setSelected(0)
@@ -26,6 +39,7 @@ export default function Initiatives() {
 					<div
 						className={getClasses(1)}
 						onClick={() => handleClick(1)}
+                        ref = {refs[0]}
 					>
 						<img src="/initiatives/icons/001.png" alt="" />
 						<p>
@@ -47,6 +61,7 @@ export default function Initiatives() {
 					<div
 						className={getClasses(2)}
 						onClick={() => handleClick(2)}
+                        ref = {refs[1]}
 					>
 						<img src="/initiatives/icons/002.png" alt="" />
 						<p>
@@ -68,6 +83,7 @@ export default function Initiatives() {
 					<div
 						className={getClasses(3)}
 						onClick={() => handleClick(3)}
+                        ref = {refs[2]}
 					>
 						<img src="/initiatives/icons/003.png" alt="" />
 						<p>
@@ -89,6 +105,7 @@ export default function Initiatives() {
 					<div
 						className={getClasses(4)}
 						onClick={() => handleClick(4)}
+                        ref = {refs[3]}
 					>
 						<img src="/initiatives/icons/002.png" alt="" />
 						<p>
@@ -110,6 +127,7 @@ export default function Initiatives() {
 					<div
 						className={getClasses(5)}
 						onClick={() => handleClick(5)}
+                        ref = {refs[4]}
 					>
 						<img src="/initiatives/icons/001.png" alt="" />
 						<p>
