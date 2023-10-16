@@ -13,15 +13,17 @@ export default function Contact() {
 			<div className={s.heading}>
 				<div className={s.container}>
 					<h1>CONTACT US</h1><br />
-                    <div className={s.address}> 
-                        <img src="./home.png" alt="home" />
-                        <p>National Institute of Technology<br></br> Karnataka, Surathkal, Mangalore - 575 025
-                        </p>
-                    </div>
-                    <div className={s.emailid}>
-                        <img src="./email.png" alt="add" />
-                        <p>embrace@nitk.edu.in</p>
-                    </div>                     
+                    <div className={s.details}>
+						<div className={s.address}>
+							<img src="./home.png" alt="home" />
+							<p>National Institute of Technology<br></br> Karnataka, Surathkal, Mangalore - 575 025
+							</p>
+						</div>
+						<div className={s.emailid}>
+							<img src="./email.png" alt="add" />
+							<p>embrace@nitk.edu.in</p>
+						</div>
+					</div>                  
 				</div>
 			</div>
 			<div className={s.form}>
@@ -31,17 +33,17 @@ export default function Contact() {
 				</div>
 				<form onSubmit={submitHandler}>
 					<label htmlFor="name">Name</label>
-					<br/>
+					{/* <br/> */}
 					<input id="name" value={name} type="text" onChange={(e) => setName(e.target.value)} required />
-					<br/>
+					{/* <br/> */}
 					<label htmlFor="email">Email</label>
-					<br/>
+					{/* <br/> */}
 					<input id="email" value={email} type="email" onChange={(e) => setEmail(e.target.value)} required />
-					<br/>
+					{/* <br/> */}
 					<label htmlFor="message">Message</label>
-					<br/>
+					{/* <br/> */}
 					<textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} required />
-					<br/>
+					{/* <br/> */}
 					<button type="submit">Submit</button>
 				</form>
 			</div>
