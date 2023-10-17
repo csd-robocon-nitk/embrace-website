@@ -146,6 +146,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/KVG.png" alt="" />
 							<h2>Dr. K. V. Gangadharan</h2>
+							<p>(VU2TAO)</p>
 							<div className={s.designation}>
 								<h3>Project Head</h3>
 								<p>EMBRACE</p>
@@ -166,6 +167,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/PU.png" alt="" />
 							<h2>Dr. Pruthviraj Umesh</h2>
+							<p>&nbsp;</p>
 							<div className={s.designation}>
 								<h3>Execution Head</h3>
 								<p>EMBRACE</p>
@@ -186,6 +188,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/mohit.jpg" alt="" />
 							<h2>Dr. Mohit P. Tahiliani</h2>
+							<p>&nbsp;</p>
 							<div className={s.designation}>
 								<h3>Open Source Head</h3>
 								<p>EMBRACE</p>
@@ -206,6 +209,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/shradha.png" alt="" />
 							<h2>Ms. Shradha Shetty V</h2>
+							<p>(VU3CMY)</p>
 							<div className={s.designation}>
 								<h3>Project Staff</h3>
 								<p>Centre for System Design<br />NITK Surathkal</p>
@@ -226,6 +230,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/jayalekshmi.png" alt="" />
 							<h2>Dr. B. R. Jayalekshmi</h2>
+							<p>&nbsp;</p>
 							<div className={s.designation}>
 								<h3>Professor</h3>
 								<p>Dept. of Civil Engineering<br />NITK Surathkal</p>
@@ -246,6 +251,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/srikanth.png" alt="" />
 							<h2>Mr. Shrikanth Bhat</h2>
+							<p>(VU2SBJ)</p>
 							<div className={s.designation}>
 								<h3>Member</h3>
 								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
@@ -266,6 +272,7 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/sukanya.png" alt="" />
 							<h2>Dr. Sukanya Rao</h2>
+							<p>(VU2RDJ)</p>
 							<div className={s.designation}>
 								<h3>Member</h3>
 								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
@@ -286,9 +293,10 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/kiran.png" alt="" />
 							<h2>Mr. Kiran Padiyar</h2>
+							<p>(VU2XE)</p>
 							<div className={s.designation}>
 								<h3>Member</h3>
-								<p>Mangalore Amateur Radio Club</p>
+								<p>Mangalore Amateur Radio Club <br /><br /></p>
 							</div>
 							<div>
 								<a href="mailto:tahiliani@nitk.edu.in">
@@ -306,9 +314,10 @@ export default function Aboutus() {
 						<div className={s.card}>
 							<img src="/team/amba.png" alt="" />
 							<h2>Dr. Amba Shetty</h2>
+							<p>&nbsp;</p>
 							<div className={s.designation}>
 								<h3>GIS Head</h3>
-								<p>EMBRACE</p>
+								<p>EMBRACE <br /><br /></p>
 							</div>
 							<div>
 								<a href="mailto:tahiliani@nitk.edu.in">

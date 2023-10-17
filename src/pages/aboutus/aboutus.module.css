@@ -69,17 +69,17 @@ main.aboutus {
 
 .aboutus .content .cards .card {
     width: 32%;
-    background-color: #fbfbfb;
+    background-color: #fdfdfd;
     color: var(--dark-text);
     padding: 20px 20px;
     border-radius: 5px;
     box-shadow: -1px 1px 5px 1px #43abc079;
-    transition: 300ms;
-    cursor: pointer;
+    transition: 200ms;
+    /* cursor: pointer; */
 }
 
 .aboutus .content .cards .card:hover {
-    box-shadow: -2px 2px 5px 1px #43abc0be;
+    box-shadow: -2px 2px 5px 1px #43abc0a2;
 }
 
 .aboutus .content .cards .card h2 {
@@ -99,7 +99,6 @@ main.aboutus {
     text-align: center;
     font-size: 17px;
     margin-bottom: 2px;
-    margin-top: 20px;
 }
 
 .aboutus .content .cards .card div{
@@ -144,7 +143,7 @@ main.aboutus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .aboutus .coreteam .cards .card h2 {
@@ -154,10 +153,12 @@ main.aboutus {
 .aboutus .coreteam .cards .card>img {
     border-radius: 50%;
     width: 150px;
+    margin-bottom: 20px;
 }
 
 .aboutus .coreteam .cards .card .designation {
     display: block;
+    margin: 20px 0px;
 }
 
 #email{
