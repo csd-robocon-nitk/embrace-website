@@ -1,0 +1,9 @@
+.blog h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.blog p {
+    line-height: 150%;
+    font-size: 18px;
+}

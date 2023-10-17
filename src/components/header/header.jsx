@@ -63,7 +63,7 @@ export default function Header() {
 								RESOURCES
 								<div>
 									<div>
-										<Link to="/resources#course">Course Materials</Link>
+										<Link to="/resources#materials">Course Materials</Link>
 										<Link to="/resources#simulations">Lab Simulations</Link>
 										<Link to="/resources#blog">Blog</Link>
 									</div>

@@ -1,8 +1,121 @@
-main.resources {
-    height: 100vh;
-    background: linear-gradient(var(--bg-light-blue) 70%, var(--bg-dark-blue));
-    text-align: center;
+.resources {
+    min-height: calc(100vh - 70px);
+}
+
+.resources .heading {
+    height: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    background-color: #070619;
+}
+
+.resources .heading h1 {
+    color: var(--light-text);
+    font-size: 60px;
+}
+
+.resources .subnav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #d5e5ff;
+}
+
+.resources .subnav ul {
+    max-width: 760px;
+    margin: 0px auto;
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+}
+
+.resources .subnav ul li {    
+    position: relative;
+}
+
+.resources .subnav ul li a {
+    color: var(--dark-text);
+    text-decoration: none;
+    display: block;
+    padding: 12px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    border-color: var(--bg-dark-blue);
+    border-width: 0px;
+    border-left-width: 2px;
+    border-style: solid;
+    transition: 300ms;
+    /* z-index: 3; */
+}
+
+.resources .subnav ul li:last-child a {
+    border-right-width: 2px;
+}
+
+.resources .subnav ul li .before {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+    /* z-index: 1; */
+}
+
+.resources .subnav ul li:hover .before {
+    height: 100%;
+    background-color: #b8d3ff;
+}
+
+.resources .subnav ul li.active a {
+    color: var(--light-text);
+}
+
+.resources .subnav ul li.active .before {
+    height: 100%;
+    background-color: var(--bg-dark-blue);
+}
+
+
+
+.resources .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.resources .content>p {
+    font-size: 18px;
+    line-height: 150%;
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+
+@media (max-width: 700px) {
+    .resources .heading h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .resources .subnav ul li a {
+        font-size: 14px;
+    }
+
+    .resources .subnav ul li:first-child a {
+        border-left-width: 0;
+    }
+
+    .resources .subnav ul li:last-child a {
+        border-right-width: 0;
+    }
 }
