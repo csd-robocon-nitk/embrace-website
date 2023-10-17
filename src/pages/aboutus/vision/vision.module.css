@@ -1,0 +1,65 @@
+.vision {
+    padding: 50px 20px;
+    background-color: #d5e5ff;
+    color: var(--dark-text);
+}
+
+.vision h1 {
+    font-size: 40px;
+    /* text-align: center; */
+    max-width: 850px;
+    margin: 0px auto 40px auto;
+}
+
+.vision .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    margin: 0px auto;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.vision .content .section {
+    box-shadow: #001d532d -1px 1px 3px 2px;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.vision .section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    height: 44px;
+    text-transform: uppercase;
+}
+
+.vision .section p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+.vision .section img {
+    display: block;
+    height: 150px;
+    /* max-width: 70%; */
+    margin: 20px auto;
+}
+
+
+@media (max-width: 700px) {
+    .vision {
+        padding: 50px 10px;
+    }
+
+    .vision h1 {
+        padding-left: 10px;
+    }
+
+    .vision .content {
+        grid-template-columns: 1fr;
+        max-width: 95%;
+    }
+}

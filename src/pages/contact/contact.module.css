@@ -19,6 +19,7 @@ main.contact {
     display: flex;
     
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
 }
@@ -34,11 +35,16 @@ main.contact {
     text-transform: uppercase;
     align-items: center;
 }
-.contact .heading .container div{
-    text-align: left;
+.contact .heading .container .details{
+    /* text-align: left; */
+    width: 100%;
     padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     font-weight: 550;
 }
+
 .contact .heading .container .address{
     display: flex;
 }
@@ -56,7 +62,7 @@ main.contact {
     max-width: 40px;
     max-height: 30px;
 }
-
+/* 
 
 .contact .content {
     padding: 50px 20px;
@@ -115,10 +121,10 @@ main.contact {
 
 .contact .content img {
     max-width: 100%;
-}
+} */
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .contact .heading .container h1 {
         font-size: 45px
     }
@@ -126,15 +132,20 @@ main.contact {
     .contact .heading .container h2 {
         font-size: 20px;
     }
+
+    .contact .heading .container .details {
+        padding: 0;
+        width: initial;
+    }
 }
 
 
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .contact .content p {
         font-size: 18px;
     }
-}
+} */
 
 
 @media (max-width: 400px) {
@@ -150,7 +161,7 @@ main.contact {
 
 /* CARDS */
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .contact .content .cards .card {
         width: 48%;
     }
@@ -161,7 +172,7 @@ main.contact {
         width: 95%;
         max-width: 300px;
     }
-}
+} */
 
 
 
@@ -170,10 +181,11 @@ main.contact {
     display: flex;
     justify-content: center;
     gap: 150px;
+    padding: 0px 30px;
 }
 
 .contact .form div {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .contact .form h1 {
@@ -187,23 +199,25 @@ main.contact {
 
 
 .contact form {
-    width: 50%;
+    width: 55%;
+    max-width: 600px;
+    min-width: 400px;
     margin: 50px 0px;
     border-radius: 10px;
 }
 
 .contact label {
     color: var(--dark-text);
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .contact input, .contact textarea {
     width: 100%;
     border-radius: 5px;
-    height: 50px;
-    margin-bottom: 50px;
+    height: 40px;
+    margin-bottom: 30px;
     margin-top: 0px;
-    padding: 10px;
+    padding: 5px 10px;
     border: 1px solid #aaaaaa;
     transition: border-color 300ms;
 }
@@ -215,21 +229,51 @@ main.contact {
 }
 
 .contact textarea {
-    height: 130px;
+    height: 100px;
+    font-family: inherit;
 }
 
 .contact button {
     width: 100%;
-    padding: 13px 0px;
-    font-size: 22px;
+    padding: 10px 0px;
+    font-size: 20px;
     font-weight: 600;
     background-color: var(--bg-dark-blue);
     color: var(--light-text);
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: 300ms opacity;
+    transition: 200ms opacity;
 }
 
 .contact button:hover {
     opacity: 0.9;
+}
+
+
+@media (max-width: 1250px) {
+    .contact .form {
+        gap: 50px;
+    }
+
+    .contact .form h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .contact .form {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+    }
+
+    .contact .form div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact form {
+        width: 95%;
+        min-width: initial;
+    }
 }

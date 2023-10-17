@@ -69,18 +69,19 @@ main.aboutus {
 
 .aboutus .content .cards .card {
     width: 32%;
-    background-color: #fbfbfb;
+    background-color: #fdfdfd;
     color: var(--dark-text);
     padding: 20px 20px;
     border-radius: 5px;
-    box-shadow: -1px 1px 5px 1px #43abc079;
-    transition: 300ms;
-    cursor: pointer;
+    /* box-shadow: -1px 1px 5px 1px #43abc079; */
+    box-shadow: -1px 1px 5px 1px #0000002f;
+    transition: 200ms;
+    /* cursor: pointer; */
 }
-
+/* 
 .aboutus .content .cards .card:hover {
-    box-shadow: -2px 2px 5px 1px #43abc0be;
-}
+    box-shadow: -2px 2px 5px 1px #43abc0a2;
+} */
 
 .aboutus .content .cards .card h2 {
     font-size: 20px;
@@ -90,12 +91,15 @@ main.aboutus {
 .aboutus .content .cards .card p {
     font-size: 15px;
     text-align: center;
+    line-height: 120%;
     /* text-rendering: auto;
     text-indent: 2px; */
 }
 
 .aboutus .content .cards .card h3{
     text-align: center;
+    font-size: 17px;
+    margin-bottom: 2px;
 }
 
 .aboutus .content .cards .card div{
@@ -140,7 +144,7 @@ main.aboutus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .aboutus .coreteam .cards .card h2 {
@@ -150,10 +154,12 @@ main.aboutus {
 .aboutus .coreteam .cards .card>img {
     border-radius: 50%;
     width: 150px;
+    margin-bottom: 20px;
 }
 
 .aboutus .coreteam .cards .card .designation {
     display: block;
+    margin: 20px 0px;
 }
 
 #email{
@@ -268,15 +274,15 @@ main.aboutus {
 
 /* CARDS */
 
-@media (max-width: 700px) {
+@media (max-width: 810px) {
     .aboutus .content .cards .card {
         width: 48%;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .aboutus .content .cards .card {
         width: 95%;
-        max-width: 300px;
+        max-width: 350px;
     }
 }
