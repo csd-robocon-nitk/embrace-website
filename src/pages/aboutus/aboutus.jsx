@@ -1,4 +1,5 @@
 import s from './aboutus.module.css'
+import Partners from './partners/partners'
 import Vision from './vision/vision'
 
 export default function Aboutus() {
@@ -130,10 +131,12 @@ export default function Aboutus() {
 				</p>
 			</div> */}
 
-			<div className={s.content}>
+			{/* <div className={s.content}>
 				<h1>Supporting Partners</h1>
 				<img src="/stakeholders.png" alt="" />
-			</div>
+			</div> */}
+
+			<Partners />
 
 			<div className={s.content}>
 				<h1>Team</h1>
@@ -304,8 +307,8 @@ export default function Aboutus() {
 							<img src="/team/amba.png" alt="" />
 							<h2>Dr. Amba Shetty</h2>
 							<div className={s.designation}>
-								<h3>EMBRACE</h3>
-								<p>GIS Head</p>
+								<h3>GIS Head</h3>
+								<p>EMBRACE</p>
 							</div>
 							<div>
 								<a href="mailto:tahiliani@nitk.edu.in">
