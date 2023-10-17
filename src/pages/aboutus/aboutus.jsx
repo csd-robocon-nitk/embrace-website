@@ -1,4 +1,5 @@
 import s from './aboutus.module.css'
+import Vision from './vision/vision'
 
 export default function Aboutus() {
 	return (
@@ -43,18 +44,16 @@ export default function Aboutus() {
 			<div className={s.content}>
 				<h1>Our Mission</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					Duis aute irure dolor in reprehenderit in voluptate velit
-					esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-					occaecat cupidatat non proident, sunt in culpa qui officia
-					deserunt mollit anim id est laborum.
+					To harness the power of amateur radio technology and
+					education to enhance disaster management, communication, and
+					community empowerment in coastal regions of Karnataka,
+					India.
 				</p>
 			</div>
 
-			<div className={s.content}>
+			<Vision />
+
+			{/* <div className={s.content}>
 				<h1>Our Vision</h1>
 				<div className={s.cards}>
 					<div className={s.card}>
@@ -129,7 +128,7 @@ export default function Aboutus() {
 					empowerment are widespread realities, achieved through
 					sustainability, innovation, and community collaboration.
 				</p>
-			</div>
+			</div> */}
 
 			<div className={s.content}>
 				<h1>Supporting Partners</h1>
@@ -142,15 +141,19 @@ export default function Aboutus() {
 					<h2>Core Team</h2>
 					<div className={s.cards}>
 						<div className={s.card}>
-							<img src="./KVG.png" alt="" />
+							<img src="/team/KVG.png" alt="" />
 							<h2>Dr. K. V. Gangadharan</h2>
 							<div className={s.designation}>
-								<p>Project Head</p>
-								<h3>EMBRACE</h3>
+								<h3>Project Head</h3>
+								<p>EMBRACE</p>
 							</div>
 							<div>
 								<a href="mailto:kvganga@nitk.edu.in">
-									<img src="./email.png" id={s.email} alt="Email" />
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
 								</a>
 								<a href="https://www.linkedin.com/in/kvganga/">
 									<img src="./linkedin.png" alt="LinkedIn" />
@@ -158,15 +161,19 @@ export default function Aboutus() {
 							</div>
 						</div>
 						<div className={s.card}>
-							<img src="./PU.png" alt="" />
+							<img src="/team/PU.png" alt="" />
 							<h2>Dr. Pruthviraj Umesh</h2>
 							<div className={s.designation}>
-								<p>Execution Head</p>
-								<h3>EMBRACE</h3>
+								<h3>Execution Head</h3>
+								<p>EMBRACE</p>
 							</div>
 							<div>
 								<a href="mailto:pruthviu@nitk.edu.in">
-									<img src="./email.png" id={s.email} alt="Email" />
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
 								</a>
 								<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
 									<img src="./linkedin.png" alt="LinkedIn" />
@@ -174,15 +181,139 @@ export default function Aboutus() {
 							</div>
 						</div>
 						<div className={s.card}>
-							<img src="./mohit.jpg" alt="" />
+							<img src="/team/mohit.jpg" alt="" />
 							<h2>Dr. Mohit P. Tahiliani</h2>
 							<div className={s.designation}>
-								<p>Open Source Head</p>
-								<h3>EMBRACE</h3>
+								<h3>Open Source Head</h3>
+								<p>EMBRACE</p>
 							</div>
 							<div>
 								<a href="mailto:tahiliani@nitk.edu.in">
-									<img src="./email.png" id={s.email} alt="Email" />
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/shradha.png" alt="" />
+							<h2>Ms. Shradha Shetty V</h2>
+							<div className={s.designation}>
+								<h3>Project Staff</h3>
+								<p>Centre for System Design<br />NITK Surathkal</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/jayalekshmi.png" alt="" />
+							<h2>Dr. B. R. Jayalekshmi</h2>
+							<div className={s.designation}>
+								<h3>Professor</h3>
+								<p>Dept. of Civil Engineering<br />NITK Surathkal</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/srikanth.png" alt="" />
+							<h2>Mr. Shrikanth Bhat</h2>
+							<div className={s.designation}>
+								<h3>Member</h3>
+								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/sukanya.png" alt="" />
+							<h2>Dr. Sukanya Rao</h2>
+							<div className={s.designation}>
+								<h3>Member</h3>
+								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/kiran.png" alt="" />
+							<h2>Mr. Kiran Padiyar</h2>
+							<div className={s.designation}>
+								<h3>Member</h3>
+								<p>Mangalore Amateur Radio Club</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
+								</a>
+								<a href="https://www.linkedin.com/in/mohittahiliani/">
+									<img src="./linkedin.png" alt="LinkedIn" />
+								</a>
+							</div>
+						</div>
+						<div className={s.card}>
+							<img src="/team/amba.png" alt="" />
+							<h2>Dr. Amba Shetty</h2>
+							<div className={s.designation}>
+								<h3>EMBRACE</h3>
+								<p>GIS Head</p>
+							</div>
+							<div>
+								<a href="mailto:tahiliani@nitk.edu.in">
+									<img
+										src="./email.png"
+										id={s.email}
+										alt="Email"
+									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
 									<img src="./linkedin.png" alt="LinkedIn" />
@@ -194,28 +325,28 @@ export default function Aboutus() {
 				<h2>HAM Operating Team</h2>
 				<div class={s.otherteam}>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 1" />
+						<img src="/team/mohit.jpg" alt="Member 1" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 2" />
+						<img src="/team/PU.png" alt="Member 2" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 3" />
+						<img src="/team/mohit.jpg" alt="Member 3" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 4" />
+						<img src="/team/PU.png" alt="Member 4" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
@@ -226,28 +357,28 @@ export default function Aboutus() {
 				<h2>Project Managers</h2>
 				<div class={s.otherteam}>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 1" />
+						<img src="/team/mohit.jpg" alt="Member 1" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 2" />
+						<img src="/team/PU.png" alt="Member 2" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 3" />
+						<img src="/team/mohit.jpg" alt="Member 3" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 4" />
+						<img src="/team/PU.png" alt="Member 4" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
@@ -258,28 +389,28 @@ export default function Aboutus() {
 				<h2>Support Team</h2>
 				<div class={s.otherteam}>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 1" />
+						<img src="/team/mohit.jpg" alt="Member 1" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 2" />
+						<img src="/team/PU.png" alt="Member 2" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./mohit.jpg" alt="Member 3" />
+						<img src="/team/mohit.jpg" alt="Member 3" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>
 						</div>
 					</div>
 					<div class={s.member}>
-						<img src="./PU.png" alt="Member 4" />
+						<img src="/team/PU.png" alt="Member 4" />
 						<div>
 							<h3>John Doe</h3>
 							<p>Designation</p>

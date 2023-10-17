@@ -1,0 +1,47 @@
+.vision {
+    padding: 50px 20px;
+    background-color: #d5e5ff;
+    color: var(--dark-text);
+}
+
+.vision h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vision .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 0px auto;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.vision .content .section {
+    box-shadow: #001d532d -1px 1px 3px 2px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.vision .section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.vision .section p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+
+@media (max-width: 700px) {
+    .vision .content {
+        grid-template-columns: 1fr;
+        max-width: 95%;
+    }
+}

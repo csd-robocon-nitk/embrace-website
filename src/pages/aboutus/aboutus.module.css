@@ -90,12 +90,16 @@ main.aboutus {
 .aboutus .content .cards .card p {
     font-size: 15px;
     text-align: center;
+    line-height: 120%;
     /* text-rendering: auto;
     text-indent: 2px; */
 }
 
 .aboutus .content .cards .card h3{
     text-align: center;
+    font-size: 17px;
+    margin-bottom: 2px;
+    margin-top: 20px;
 }
 
 .aboutus .content .cards .card div{
@@ -268,15 +272,15 @@ main.aboutus {
 
 /* CARDS */
 
-@media (max-width: 700px) {
+@media (max-width: 810px) {
     .aboutus .content .cards .card {
         width: 48%;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .aboutus .content .cards .card {
         width: 95%;
-        max-width: 300px;
+        max-width: 350px;
     }
 }
