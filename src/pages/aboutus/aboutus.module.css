@@ -73,14 +73,15 @@ main.aboutus {
     color: var(--dark-text);
     padding: 20px 20px;
     border-radius: 5px;
-    box-shadow: -1px 1px 5px 1px #43abc079;
+    /* box-shadow: -1px 1px 5px 1px #43abc079; */
+    box-shadow: -1px 1px 5px 1px #0000002f;
     transition: 200ms;
     /* cursor: pointer; */
 }
-
+/* 
 .aboutus .content .cards .card:hover {
     box-shadow: -2px 2px 5px 1px #43abc0a2;
-}
+} */
 
 .aboutus .content .cards .card h2 {
     font-size: 20px;

@@ -50,6 +50,14 @@
 
 
 @media (max-width: 700px) {
+    .vision {
+        padding: 50px 10px;
+    }
+
+    .vision h1 {
+        padding-left: 10px;
+    }
+
     .vision .content {
         grid-template-columns: 1fr;
         max-width: 95%;

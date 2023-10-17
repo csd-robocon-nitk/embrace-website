@@ -57,12 +57,20 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 500px) {    
+    .partners h1 {
+        font-size: 30px;
+    }
+
+    .partners .details h2 {
+        font-size: 20px;
+    }
+
     .partners .tabs {
         gap: 10px;
     }
 
     .partners .tabs .tab {
-        padding: 5px 20px;
+        padding: 5px 15px;
     }
 }
