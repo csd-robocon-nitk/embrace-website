@@ -7,6 +7,7 @@ export default function Vision() {
 			<div className={s.content}>
 				<div className={s.section}>
 					<h2>Sustainability</h2>
+					<img src="/vision/sustainability.png" alt="" />
 					<p>
 						EMBRACE is committed to long-term sustainability. It
 						envisions becoming a self-sustained project, supported
@@ -18,6 +19,7 @@ export default function Vision() {
 				</div>
 				<div className={s.section}>
 					<h2>Innovation and Research</h2>
+					<img src="/vision/innovation.png" alt="" />
 					<p>
 						EMBRACE is committed to fostering innovation and
 						research in disaster management and amateur radio. The
@@ -29,6 +31,7 @@ export default function Vision() {
 				</div>
 				<div className={s.section}>
 					<h2>Curriculum Integration & Open Access</h2>
+					<img src="/vision/curriculum.png" alt="" />
 					<p>
 						EMBRACE intends to integrate its educational resources
 						into formal academic systems, particularly within NITK's
@@ -39,6 +42,7 @@ export default function Vision() {
 				</div>
 				<div className={s.section}>
 					<h2>Resource Sharing</h2>
+					<img src="/vision/sharing.png" alt="" />
 					<p>
 						EMBRACE will collaborate closely with MARC to ensure
 						that the resources it develops, including HAM radio
