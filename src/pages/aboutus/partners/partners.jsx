@@ -18,41 +18,47 @@ export default function Partners() {
 			<img src="/partners.png" alt="" />
 			<div className={s.content}>
 				<div className={s.tabs}>
-					<div
-						className={`${s.tab} ${selected == 1 ? s.active : ''}`}
-						onClick={() => setSelected(1)}
-					>
-						NITK
+					<div className={s.left}>
+						<div
+							className={`${s.tab} ${selected == 1 ? s.active : ''}`}
+							onClick={() => setSelected(1)}
+						>
+							NITK
+						</div>
+						<div className={s.bottom}>
+							<div
+								className={`${s.tab} ${selected == 2 ? s.active : ''}`}
+								onClick={() => setSelected(2)}
+							>
+								NITK HAM CLUB
+							</div>
+							<div
+								className={`${s.tab} ${selected == 3 ? s.active : ''}`}
+								onClick={() => setSelected(3)}
+							>
+								WR&OE
+							</div>
+							<div
+								className={`${s.tab} ${selected == 4 ? s.active : ''}`}
+								onClick={() => setSelected(4)}
+							>
+								CSD
+							</div>
+							<div
+								className={`${s.tab} ${selected == 5 ? s.active : ''}`}
+								onClick={() => setSelected(5)}
+							>
+								COSH
+							</div>
+						</div>
 					</div>
-					<div
-						className={`${s.tab} ${selected == 2 ? s.active : ''}`}
-						onClick={() => setSelected(2)}
-					>
-						NITK HAM CLUB
-					</div>
-					<div
-						className={`${s.tab} ${selected == 3 ? s.active : ''}`}
-						onClick={() => setSelected(3)}
-					>
-						WR&OE
-					</div>
-					<div
-						className={`${s.tab} ${selected == 4 ? s.active : ''}`}
-						onClick={() => setSelected(4)}
-					>
-						CSD
-					</div>
-					<div
-						className={`${s.tab} ${selected == 5 ? s.active : ''}`}
-						onClick={() => setSelected(5)}
-					>
-						COSH
-					</div>
-					<div
-						className={`${s.tab} ${selected == 6 ? s.active : ''}`}
-						onClick={() => setSelected(6)}
-					>
-						MARC
+					<div className={s.right}>
+						<div
+							className={`${s.tab} ${selected == 6 ? s.active : ''}`}
+							onClick={() => setSelected(6)}
+						>
+							MARC
+						</div>
 					</div>
 				</div>
 				{content}
