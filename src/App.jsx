@@ -13,6 +13,7 @@ import Nodalcentres from './pages/nodalcentres/nodalcentres'
 import Resources from './pages/resources/resources'
 import Getinvolved from './pages/getinvolved/getinvolved'
 import Gallery from './pages/gallery/gallery'
+import Events from './pages/events/events'
 // import Blogs from './pages/blogs/blogs'
 // import Blog from './pages/blogs/blog'
 
@@ -29,6 +30,7 @@ function App() {
 				{/* <Route path="/blog" element={<Blog />} />
           		<Route path="/blog/:slug" element={<Blogs />} /> */}
 				<Route path = "/gallery" element={<Gallery />}/>
+				<Route path = "/events" element={<Events />}/>
 				<Route path = "/contact" element={<Contact />}/>
 			</Routes>
 			<Footer />
