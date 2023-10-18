@@ -51,21 +51,16 @@ export default function Resources() {
 			</div>
 			<div className={s.content}>
 				<p>
-					Welcome to the EMBRACEs Resources page. Here, you'll find a
+					Welcome to the EMBRACE's Resources page. Here, you'll find a
 					variety of educational materials and information related to
 					amateur radio, disaster management.
 				</p>
-				<p>
-					We continually update and expand our resource library, so be
-					sure to check back often for new content.
-				</p>
-				<p>
-					Have questions or suggestions for additional resources?
-					Please don't hesitate to [contact us](contact-page-link) and
-					share your feedback. We value your input and are committed
-					to providing valuable resources for our community.
-				</p>
 				{content}
+				<p>
+					We regularly update our resources, so check back for new
+					content. Have questions or suggestions? Please{' '}
+					<Link to="/contact">contact us</Link>, we value your input.
+				</p>
 			</div>
 		</main>
 	)
