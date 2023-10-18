@@ -56,3 +56,7 @@ footer .content nav .right a img{
     max-height: 25px;
     margin-right: 15px;
 }
+
+footer .content nav .right .invertible{
+    filter: invert(100%);
+}

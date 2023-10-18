@@ -16,6 +16,10 @@ body {
 	background-color: #ffffff;
 }
 
+#favicon {
+	filter: invert(100%);
+}
+
 * {
 	margin: 0;
 	padding: 0;
