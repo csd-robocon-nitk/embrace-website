@@ -7,14 +7,14 @@
 .vision h1 {
     font-size: 40px;
     /* text-align: center; */
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: 0px auto 40px auto;
 }
 
 .vision .content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 850px;
+    grid-template-columns: repeat(4, 1fr);
+    /* max-width: 850px; */
     margin: 0px auto;
     gap: 20px;
     align-items: stretch;
@@ -30,8 +30,8 @@
 .vision .section h2 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 22px;
-    height: 44px;
+    font-size: 20px;
+    height: 60px;
     text-transform: uppercase;
 }
 
@@ -46,6 +46,21 @@
     height: 150px;
     /* max-width: 70%; */
     margin: 20px auto;
+}
+
+@media (max-width: 1150px) {
+    .vision h1 {
+        max-width: 850px;
+    }
+
+    .vision .content {
+        max-width: 850px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vision .section h2 {
+        height: 40px;
+    }
 }
 
 
