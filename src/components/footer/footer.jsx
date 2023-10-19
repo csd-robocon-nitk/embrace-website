@@ -9,17 +9,17 @@ export default function Footer () {
                         <h4>Copyrights Reserved.</h4>
                     </div>
                     <div className={s.right}>
-                        <a href="https://www.instagram.com/">
-                            <img src="./instagram.png" alt="Instagram" />
+                        <a href="https://www.instagram.com/" className={s.invertible}>
+                            <img src="./insta.png" id="img1" alt="Instagram" />
                         </a>
-                        <a href="https://www.linkedin.com/">
-                            <img src="./linkedin.png" alt="LinkedIn" />
+                        <a href="https://www.linkedin.com/" >
+                            <img src="./linkedin.png" id="img2" alt="LinkedIn" />
                         </a>
-                        <a href="https://www.youtube.com/">
-                            <img src="./yt.png" alt="Youtube" />
+                        <a href="https://www.youtube.com/" className={s.invertible}>
+                            <img src="./yt.png" id="img3" alt="Youtube" />
                         </a>
                         <a href="https://www.github.com/">
-                            <img src="./github.png" alt="Github" />
+                            <img src="./github.png" id="img4" alt="Github" />
                         </a>
                     </div>
                 </nav>
