@@ -110,14 +110,8 @@ main.aboutus {
 .aboutus .content .cards .card div a img{
     align-items: center;
     filter: invert(100%);
-}
-
-.aboutus .content .cards .card div a:nth-child(1) img {
-    width: 50px;
-}
-
-.aboutus .content .cards .card div a:nth-child(2) img {
-    width: 23px;
+    max-width: 50px;
+    max-height: 23px;
 }
 
 .aboutus .content .cards .card div a{

@@ -159,7 +159,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://www.linkedin.com/in/kvganga/">
+								<a href="https://in.linkedin.com/in/kvganga">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -180,7 +180,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
+								<a href="https://in.linkedin.com/in/dr-pruthviraj-u">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -201,7 +201,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								<a href="https://in.linkedin.com/in/mohittahiliani">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -215,14 +215,14 @@ export default function Aboutus() {
 								<p>Centre for System Design<br />NITK Surathkal</p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								{/* <a href="#">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
-								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								</a> */}
+								<a href="https://in.linkedin.com/in/shradha-shetty-705329128">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -236,14 +236,14 @@ export default function Aboutus() {
 								<p>Dept. of Civil Engineering<br />NITK Surathkal</p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								<a href="mailto:brjaya@nitk.edu.in">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
 								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								<a href="https://in.linkedin.com/in/jaya-lekshmi-3330b422">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -257,14 +257,14 @@ export default function Aboutus() {
 								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								{/* <a href="#">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
-								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								</a> */}
+								<a href="https://in.linkedin.com/in/srikanth-bhat-07b66b19">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -278,16 +278,16 @@ export default function Aboutus() {
 								<p>Mangalore Amateur Radio Club<br />Alumni, NITK Surathkal</p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								{/* <a href="#">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
-								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								</a> */}
+								{/* <a href="#">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
-								</a>
+								</a> */}
 							</div>
 						</div>
 						<div className={s.card}>
@@ -299,14 +299,14 @@ export default function Aboutus() {
 								<p>Mangalore Amateur Radio Club <br /><br /></p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								{/* <a href="#">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
-								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								</a> */}
+								<a href="https://in.linkedin.com/in/kiranpadiyar">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -320,14 +320,14 @@ export default function Aboutus() {
 								<p>EMBRACE <br /><br /></p>
 							</div>
 							<div>
-								<a href="mailto:tahiliani@nitk.edu.in">
+								<a href="mailto:amba@nitk.edu.in">
 									<img
 										src="./email.png"
 										id={s.email}
 										alt="Email"
 									/>
 								</a>
-								<a href="https://www.linkedin.com/in/mohittahiliani/">
+								<a href="https://in.linkedin.com/in/amba-shetty-3331b626">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
