@@ -28,7 +28,7 @@ export default function Testimonials() {
 							<p>
 								Veeramuneeswaran P
 								<br />
-								Electrical and Electronics engineering
+								Electrical and Electronics Engineering
 								<br />
 								Aarupadai Veedu Institute of Technology Chennai
 							</p>
@@ -56,11 +56,11 @@ export default function Testimonials() {
 						<h2>
 							~
 							<p>
-								Pavithra A, Computer Science and Engineering
+								Pavithra A
                                 <br />
-								AVIT Aarupadai Veedu Institute of Technology
+								Computer Science and Engineering
                                 <br />
-								Chennai
+								AVIT Aarupadai Veedu Institute of Technology, Chennai
 							</p>
 						</h2>
 					</div>
