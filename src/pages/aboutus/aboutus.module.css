@@ -104,13 +104,16 @@ main.aboutus {
 
 .aboutus .content .cards .card div{
     display: flex;
+    align-items: center;
 }
 
 .aboutus .content .cards .card div a img{
     align-items: center;
+    filter: invert(100%);
     max-width: 50px;
-    max-height: 20px;
+    max-height: 23px;
 }
+
 .aboutus .content .cards .card div a{
     align-items: center;
 }

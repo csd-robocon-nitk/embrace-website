@@ -76,6 +76,9 @@ export default function Header() {
 						<li className={(path == '/gallery' ? 'active' : '')}>
 							<Link to="/gallery">GALLERY</Link>
 						</li>
+						<li className={(path == '/events' ? 'active' : '')}>
+							<Link to="/events">EVENTS</Link>
+						</li>
 						<li className={(path == '/contact' ? 'active' : '')}>
 							<Link to="/contact">CONTACT</Link>
 						</li>
