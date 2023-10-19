@@ -160,7 +160,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/kvganga/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -181,7 +181,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/dr-pruthviraj-u/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -202,7 +202,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -223,7 +223,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -244,7 +244,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -265,7 +265,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -286,7 +286,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -307,7 +307,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
@@ -328,7 +328,7 @@ export default function Aboutus() {
 									/>
 								</a>
 								<a href="https://www.linkedin.com/in/mohittahiliani/">
-									<img src="./linkedin.png" alt="LinkedIn" />
+									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
 						</div>
