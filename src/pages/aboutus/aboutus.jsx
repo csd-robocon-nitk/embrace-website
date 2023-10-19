@@ -1,4 +1,5 @@
 import s from './aboutus.module.css'
+import OtherTeamCard from './components/OtherTeamCard/OtherTeamCard'
 import Partners from './partners/partners'
 import Vision from './vision/vision'
 
@@ -336,98 +337,104 @@ export default function Aboutus() {
 				</div>
 				<h2>HAM Operating Team</h2>
 				<div class={s.otherteam}>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 1" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 2" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 3" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 4" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
+					<OtherTeamCard
+						name="Mr. Rajath C Kotekar"
+						callsign="VU3LHV"
+						photoURL = "/team/ham/Rajath Kotekar.png"
+						linkedinURL="https://www.linkedin.com/in/rajath-c-kotekar-22009a153"
+					/>
+					<OtherTeamCard
+						name="Mr. Rakshith Kotian"
+						callsign="VU3LGQ"
+						photoURL = "/team/ham/Rakshith.png"
+						linkedinURL="http://linkedin.com/in/rakshith-kotian-5a7b7212b"
+					/>
+					<OtherTeamCard
+						name="Mr. Steven Sequera"
+						callsign="VU3LGA"
+						photoURL = "/team/ham/Steven Loyd Sequera.png"
+						linkedinURL="https://www.linkedin.com/in/steevan-loyd-sequeira-79891414a"
+					/>
+					<OtherTeamCard
+						name="Mr. Manish ES"
+						callsign="VU3FCT"
+						photoURL = "/team/empty photo.jpg"
+						linkedinURL="#"
+					/>
+					<OtherTeamCard
+						name="Mr. Latheesh Shetty"
+						callsign="VU3FCC"
+						photoURL = "/team/ham/Latheesh shetty.png"
+						linkedinURL="https://www.linkedin.com/in/lathesh-shetty-819ab6138/"
+					/>
+					<OtherTeamCard
+						name="Mr. Dixith Karkera"
+						callsign="VU3CJX"
+						photoURL = "/team/ham/dixith.jfif"
+						linkedinURL="https://www.linkedin.com/in/dixith-k-karkera-aa088b180"
+					/>
+					<OtherTeamCard
+						name="Mr. Abdhul Shameer"
+						callsign="VU3LIJ"
+						photoURL = "/team/ham/abdul shameer.png"
+						linkedinURL="#"
+					/>
+					<OtherTeamCard
+						name="Mr. Keith Christan Noronha"
+						callsign=""
+						photoURL = "/team/empty photo.jpg"
+						linkedinURL="https://www.linkedin.com/in/keith-noronha-600aa8255"
+					/>
 				</div>
 
 				<h2>Project Managers</h2>
 				<div class={s.otherteam}>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 1" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 2" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 3" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 4" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
+					<OtherTeamCard
+						name="Mr. Abhijith P A"
+						designation="Project Manager"
+						photoURL = "/team/pm/abhijit pa2.png"
+						linkedinURL="#"
+					/>
+					<OtherTeamCard
+						name="Mr. Naveen rao"
+						designation="Project Manager"
+						photoURL = "/team/pm/Naveen Rao.png"
+						linkedinURL="#"
+					/>
 				</div>
 
 				<h2>Support Team</h2>
 				<div class={s.otherteam}>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 1" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 2" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/mohit.jpg" alt="Member 3" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
-					<div class={s.member}>
-						<img src="/team/PU.png" alt="Member 4" />
-						<div>
-							<h3>John Doe</h3>
-							<p>Designation</p>
-						</div>
-					</div>
+					<OtherTeamCard
+						name="Mr. Suveen"
+						designation="Project Documenter"
+						photoURL = "/team/support/Suveen Poojary.png"
+						linkedinURL="#"
+					/>						
+					<OtherTeamCard
+						name="Mr. Shibi Manohar"
+						designation="Illustrator"
+						photoURL = "/team/support/shibi manohar.png"
+						linkedinURL="https://in.linkedin.com/in/shibi-shetty"
+					/>						
+					<OtherTeamCard
+						name="Mr. Hemanth Nitesh Kumar"
+						designation="Technical Assistant"
+						photoURL = "/team/empty photo.jpg"
+						linkedinURL="http://linkedin.com/in/hemanth-nitesh-kumar-a3937b2201"
+					/>						
+					<OtherTeamCard
+						name="Ms. Lavanya K"
+						designation="Junior Assistant"
+						photoURL = "/team/support/Lavanya.jpeg"
+						linkedinURL="#"
+					/>						
+					<OtherTeamCard
+						name="Ms. Meghana"
+						designation="Junior Assistant"
+						photoURL = "/team/support/meghana.jpeg"
+						linkedinURL="#"
+					/>						
 				</div>
 			</div>
 		</main>

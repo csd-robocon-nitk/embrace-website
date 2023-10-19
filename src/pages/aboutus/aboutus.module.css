@@ -141,6 +141,7 @@ main.aboutus {
 
 .aboutus .content h2 {
     margin: 30px 0px;
+    text-align: center;
 }
 
 .aboutus .coreteam .cards .card {
@@ -173,14 +174,14 @@ main.aboutus {
 
 .aboutus .content .otherteam {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
     margin: 0px 30px;
 }
 
-.aboutus .content .otherteam .member {
+/* .aboutus .content .otherteam .member {
     text-align: center;
     position: relative;
     display: flex;
@@ -203,9 +204,10 @@ main.aboutus {
     transform: translateX(-50%) translateY(5px);
     background-color: #fbfbfb;
     box-shadow: 0px 0px 5px 2px #dddddd;
-    padding: 10px 50px;
+    padding: 10px 50px 20px 50px;
     display: none;
     opacity: 0;
+    z-index: 2;
 }
 
 .aboutus .content .otherteam .member div::before {
@@ -241,7 +243,8 @@ main.aboutus {
 
 .aboutus .content .otherteam .member div p {
     font-size: 15px;
-}
+    line-height: 80%;
+} */
 
 
 
@@ -287,5 +290,16 @@ main.aboutus {
     .aboutus .content .cards .card {
         width: 95%;
         max-width: 350px;
+    }
+}
+
+
+
+/* OTHER TEAM */
+
+@media (max-width: 620px) {
+    .aboutus .content .otherteam {
+        gap: 20px;
+        margin: 0;
     }
 }
