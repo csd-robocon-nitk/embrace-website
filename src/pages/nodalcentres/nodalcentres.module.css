@@ -64,11 +64,16 @@ label {
 
 .nodalcentres .content{
     display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
 }
 
 .nodalcentres .content .right{
     width: 40%;
     flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    margin: auto;
 }
 
 .nodalcentres .content .right img{
@@ -76,7 +81,10 @@ label {
 }
 
 .nodalcentres .content .left{
-    padding-left: 30px;
+    padding-left: 50px;
+    justify-content: left;
+    display: flexbox;
+    padding-right: 50px;
 }
 
 .nodalcentres .content .left p{
@@ -109,6 +117,7 @@ label {
 
 .nodalcentres .maps h1{
     text-align: center;
+    font-size: 40px;
 }
 
 @media (max-width:1000px){
