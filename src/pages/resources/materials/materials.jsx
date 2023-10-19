@@ -12,11 +12,11 @@ export default function Materials() {
 				designed to enhance your understanding and skills in amateur
 				radio operations. 
                 <br /><br />
-                Course Materials in Kannada 
+                {/* Course Materials in Kannada 
                 <br /><br />
                 Course Materials in Hindi
                 <br /><br />
-				Course Materials in English
+				Course Materials in English */}
 			</p>
 		</section>
 	)

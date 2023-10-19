@@ -51,9 +51,9 @@ export default function Resources() {
 			</div>
 			<div className={s.content}>
 				<p>
-					Welcome to the EMBRACE's Resources page. Here, you'll find a
+					{/* Welcome to the EMBRACE's Resources page. Here, you'll find a
 					variety of educational materials and information related to
-					amateur radio, disaster management.
+					amateur radio, disaster management. */}
 				</p>
 				{content}
 				<p>
