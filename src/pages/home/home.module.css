@@ -188,10 +188,10 @@
 
 
 @media (max-width: 600px) {
-    .home .cover {
-        /* padding-top: calc(var(--header-height) + 70px); */
+    /* .home .cover {
+        padding-top: calc(var(--header-height) + 70px);
         background: linear-gradient(to right, #148CA3 30%, #064689);
-    }
+    } */
 
     /* .home .cover h1 {
         font-size: 50px;

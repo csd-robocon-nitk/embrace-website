@@ -13,7 +13,7 @@ export default function Home() {
 				<img className={s.antenna} src="/antenna.png" alt="" />
 				<img
 					className={s.illustration}
-					src="/illustration-blue.png"
+					src="/illustration2.png"
 					alt=""
 				/>
 				<div className={s.content}>
