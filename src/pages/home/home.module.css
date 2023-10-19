@@ -3,8 +3,9 @@
     height: 100svh;
     /* padding-top: var(--header-height); */
     padding-top: 30px;
+
     background: linear-gradient(to right, hsl(190, 78%, 36%) 30%, hsl(214, 94%, 27%));
-    /* background-image: url("/pic.jpg"); */
+    /* background: linear-gradient(to right, hsl(197.72deg 71.47% 46.2% / 80%) 30%, hsl(214deg 87.4% 30.84%));
     /* background-size: cover; */
     /* background-position: center; */
     /* background-color: #798DC5; */
