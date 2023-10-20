@@ -9,29 +9,6 @@ export default function Home() {
 
 	return (
 		<main className={s.home}>
-
-
-			{/* <div className={s.cover}>
-				<img className={s.antenna} src="/antenna.png" alt="" />
-				<div className={s.content}>
-					<div className={s.containerbg}>
-						<img src="./bg.jpg" alt="backgroundimg" />	
-					</div>
-					<br />	
-					<h2>
-						<span>E</span>nabling
-						<span> M</span>ulti-disciplinary and
-						<span> B</span>roader
-						<span> R</span>adio
-						<span> A</span>pplications for
-						<span> C</span>ommunity
-						<span> E</span>mpowerment
-					</h2><br />
-					<h3>Empowering Communities through Disaster Resilience and Education</h3>		
-				</div>
-			</div> */}
-			
-
 			<div className={s.cover}>
 				<img className={s.antenna} src="/antenna.png" alt="" />
 				<img
