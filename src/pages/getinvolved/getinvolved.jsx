@@ -39,7 +39,6 @@ export default function Getinvolved () {
 				<h3>Contact Information</h3><br />
                 <p>
                 If you have any questions or need assistance, please reach out to us <a href="./contact">here</a> .
-                <br />Volunteers will receive a confirmation email upon successful registration, along with further instructions on the next steps.
                 </p><br /><br />
             </div>
 		</main>
