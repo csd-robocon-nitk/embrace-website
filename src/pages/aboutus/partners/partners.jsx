@@ -216,9 +216,9 @@ let content5 = (
 
 let content6 = (
 	<div className={s.details}>
-		<h2>Mangaluru Amateur Radio Club</h2>
+		<h2>Mangalore Amateur Radio Club</h2>
 		<p>
-			The Mangaluru Amateur Radio Club, or MARC, is an amateur radio club
+			The Mangalore Amateur Radio Club, or MARC, is an amateur radio club
 			based in Mangaluru, India. A group of enthusiastic HAMs started the
 			club in 1976. The group was established in 1976 by Mr Varadaraya
 			Nayak and Mr Mahabala Hegde.
@@ -245,8 +245,8 @@ let content6 = (
 			disasters, and engaging with the global amateur radio community.
 			MARC has been running the Disaster Management Repeater of
 			NITK-Mangalore, and its operating frequency is 145.425 MHz on the
-			radio. Since it is located in Mangaluru able to provide
-			line-of-sight coverage to Udupi, Mangaluru, and other cities in
+			radio. Since it is located in Mangalore able to provide
+			line-of-sight coverage to Udupi, Mangalore, and other cities in
 			Karnataka State, as well as Kannur and Kasaragod in Kerala
 			State.Their technical prowess, commitment, proficiency and
 			experience make them an essential asset to EMBRACE.
