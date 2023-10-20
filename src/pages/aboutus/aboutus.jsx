@@ -443,7 +443,7 @@ export default function Aboutus() {
 						name="Mr. Apoorva Agrawal"
 						designation="Web Designer"
 						photoURL = "/team/apoorva.jpg"
-						linkedinURL="www.linkedin.com/in/apoorva-agrawal-8302b825a"
+						linkedinURL="https://www.linkedin.com/in/apoorva-agrawal-8302b825a"
 					/>						
 					<OtherTeamCard
 						name="Mr. J Hariharan"
