@@ -4,7 +4,7 @@ import s from './initiatives.module.css'
 export default function Initiatives() {
 	let getClasses = i => `${s.section} ${i == selected ? s.active : ""}`
 
-	let [selected, setSelected] = useState(1)
+	let [selected, setSelected] = useState(-1)
     let [mobile, setMobile] = useState(window.innerWidth < 1000)
 
     let refs = (new Array(5)).fill(0).map(i => useRef())
@@ -51,7 +51,7 @@ export default function Initiatives() {
 
                     <div className={s.right}>
                         {
-                            selected == 1 && mobile ?
+                            (selected == 1 || selected==-1) && mobile ?
                                 initiative1(true)
                             : null
                         }
