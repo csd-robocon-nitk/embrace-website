@@ -358,7 +358,7 @@ export default function Aboutus() {
 					<OtherTeamCard
 						name="Mr. Manish ES"
 						callsign="VU3FCT"
-						photoURL = "/team/empty photo.jpg"
+						photoURL = "/team/ham/ManishES.png"
 						linkedinURL="#"
 					/>
 					<OtherTeamCard
@@ -382,7 +382,7 @@ export default function Aboutus() {
 					<OtherTeamCard
 						name="Mr. Keith Christan Noronha"
 						callsign=""
-						photoURL = "/team/empty photo.jpg"
+						photoURL = "/team/ham/keith.jfif"
 						linkedinURL="https://www.linkedin.com/in/keith-noronha-600aa8255"
 					/>
 				</div>
@@ -435,6 +435,22 @@ export default function Aboutus() {
 						photoURL = "/team/support/meghana.jpeg"
 						linkedinURL="#"
 					/>						
+				</div>
+
+				<h2>Web Design Team</h2>
+				<div class={s.otherteam}>
+					<OtherTeamCard
+						name="Mr. Apoorva Agrawal"
+						designation="Web Designer"
+						photoURL = "/team/apoorva.jpg"
+						linkedinURL="https://www.linkedin.com/in/apoorva-agrawal-8302b825a"
+					/>						
+					<OtherTeamCard
+						name="Mr. J Hariharan"
+						designation="Web Designer"
+						photoURL = "/team/hariharan.jpg"
+						linkedinURL="https://www.linkedin.com/in/hariharan-j-47aa43244"
+					/>																
 				</div>
 			</div>
 		</main>

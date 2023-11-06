@@ -8,7 +8,7 @@ export default function Footer () {
                     <div className={s.left}>
                         <h4>Copyrights Reserved.</h4>
                     </div>
-                    <div className={s.right}>
+                    {/* <div className={s.right}>
                         <a href="https://www.instagram.com/" className={s.invertible}>
                             <img src="./insta.png" id="img1" alt="Instagram" />
                         </a>
@@ -21,7 +21,7 @@ export default function Footer () {
                         <a href="https://www.github.com/">
                             <img src="./github.png" id="img4" alt="Github" />
                         </a>
-                    </div>
+                    </div> */}
                 </nav>
             </div>
         </footer>

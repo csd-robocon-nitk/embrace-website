@@ -31,7 +31,7 @@ export default function Initiatives() {
 
 	return (
 		<div className={s.initiatives}>
-			<h1>Key Initiatives</h1>
+			<h1>Objectives</h1>
 			<div className={s.content}>
 				<div
 					className={`${s.left} ${selected != 0 && selected != -1 ? s.small : ''}`}
@@ -51,7 +51,7 @@ export default function Initiatives() {
 
                     <div className={s.right}>
                         {
-                            selected == 1 && mobile ?
+                            (selected == 1 || selected==-1) && mobile ?
                                 initiative1(true)
                             : null
                         }
