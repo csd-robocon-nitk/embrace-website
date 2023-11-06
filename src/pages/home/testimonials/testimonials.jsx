@@ -7,7 +7,7 @@ export default function Testimonials() {
 				<h1>Testimonials</h1>
 
 				<div className={s.section}>
-					<img src="/testimonials/empty photo.jpg" alt="" />
+					<img src="/testimonials/P Veeramneeswaran.jpg" alt="" />
 					<div>
 						<p>
 							I've always been fascinated by the world of radio
@@ -37,7 +37,7 @@ export default function Testimonials() {
 				</div>
 
 				<div className={s.section}>
-					<img src="/testimonials/empty photo.jpg" alt="" />
+					<img src="/testimonials/Pavitra A.jpg" alt="" />
 					<div>
 						<p>
 							My recent visit to the Radio Communication Hub at
