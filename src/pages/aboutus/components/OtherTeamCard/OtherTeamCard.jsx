@@ -9,7 +9,7 @@ export default function OtherTeamCard ({ name, callsign, designation, photoURL, 
                 {callsign ? <p className = {s.callsign}>({callsign})</p> : null}
                 {designation ? <p className = {s.callsign}>{designation}</p> : null}
 
-                <a href={linkedinURL}>
+                <a href={linkedinURL} target="_blank">
                     <img className = {s.linkedin} src="/linkedin_white.png" alt="" />
                 </a>
             </div>

@@ -160,7 +160,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://in.linkedin.com/in/kvganga">
+								<a target="_blank" href="https://in.linkedin.com/in/kvganga">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -181,7 +181,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://in.linkedin.com/in/dr-pruthviraj-u">
+								<a target="_blank" href="https://in.linkedin.com/in/dr-pruthviraj-u">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -202,7 +202,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://in.linkedin.com/in/mohittahiliani">
+								<a target="_blank" href="https://in.linkedin.com/in/mohittahiliani">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -223,7 +223,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a> */}
-								<a href="https://in.linkedin.com/in/shradha-shetty-705329128">
+								<a target="_blank" href="https://in.linkedin.com/in/shradha-shetty-705329128">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -244,7 +244,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://in.linkedin.com/in/jaya-lekshmi-3330b422">
+								<a target="_blank" href="https://in.linkedin.com/in/jaya-lekshmi-3330b422">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -265,7 +265,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a> */}
-								<a href="https://in.linkedin.com/in/srikanth-bhat-07b66b19">
+								<a target="_blank" href="https://in.linkedin.com/in/srikanth-bhat-07b66b19">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -307,7 +307,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a> */}
-								<a href="https://in.linkedin.com/in/kiranpadiyar">
+								<a target="_blank" href="https://in.linkedin.com/in/kiranpadiyar">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
@@ -328,7 +328,7 @@ export default function Aboutus() {
 										alt="Email"
 									/>
 								</a>
-								<a href="https://in.linkedin.com/in/amba-shetty-3331b626">
+								<a target="_blank" href="https://in.linkedin.com/in/amba-shetty-3331b626">
 									<img src="./linkedin_white.png" alt="LinkedIn" />
 								</a>
 							</div>
