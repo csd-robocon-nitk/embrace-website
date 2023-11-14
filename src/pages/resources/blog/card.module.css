@@ -1,0 +1,52 @@
+.card {
+    width: 32%;
+    box-shadow: -1px 1px 5px 1px #0000002f;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: initial;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card h3 {
+    padding: 20px 20px 30px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.card h3::before {
+    content: "BLOG";
+    display: block;
+    /* text-align: left; */
+    color: var(--dark-text);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 800px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 550px) {
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+}

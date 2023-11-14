@@ -57,10 +57,53 @@ export default function Testimonials() {
 							~
 							<p>
 								Pavithra A
-                                <br />
+								<br />
 								Computer Science and Engineering
-                                <br />
-								AVIT Aarupadai Veedu Institute of Technology, Chennai
+								<br />
+								AVIT Aarupadai Veedu Institute of Technology,
+								Chennai
+							</p>
+						</h2>
+					</div>
+				</div>
+
+				<div className={s.section}>
+					<img src="/testimonials/Vaishnavi Singh.jpg" alt="" />
+					<div>
+						<p>
+							Absolutely thrilled to share my experience I had at
+							the Communication Hub at NITK Surathkal. The
+							opportunity to gain hands-on knowledge about the
+							latest HAM equipment was truly invaluable. My time
+							in the lab, especially delving into the intricacies
+							of antenna technology, was nothing short of an
+							honour.
+							<br /><br />
+							Being part of the testing process added a whole new
+							dimension to my learning. The excitement of actively
+							contributing to the exploration and understanding of
+							cutting-edge technology was unparalleled. The Hub
+							provided a unique platform for me to not just
+							observe but actively engage with the latest
+							equipment, making the learning experience incredibly
+							enriching.
+							<br /><br />
+							I'm grateful for the opportunity to be part of such
+							an innovative and forward-thinking environment. The
+							knowledge and skills I gained during this time have
+							undoubtedly left a lasting impact on my professional
+							growth. A big shout-out to the search lab for
+							fostering an environment that encourages hands-on
+							learning and exploration.
+						</p>
+						<h2>
+							~
+							<p>
+								Vaishnavi Singh
+								<br />
+								Computer Science and Engineering
+								<br />
+								Aarupadai Veedu Institute of Technology, Chennai
 							</p>
 						</h2>
 					</div>

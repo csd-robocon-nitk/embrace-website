@@ -27,7 +27,7 @@
 }
 
 .resources .subnav ul {
-    max-width: 760px;
+    max-width: 860px;
     margin: 0px auto;
     display: grid;
     align-items: stretch;
@@ -88,7 +88,7 @@
 
 
 .resources .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 0px 20px;
 }
