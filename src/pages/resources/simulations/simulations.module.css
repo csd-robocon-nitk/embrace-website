@@ -42,12 +42,18 @@
 }
 
 .frame {
-    --scale: 0.90;
+    --scale: 1.0;
     translate: calc((var(--scale) - 1) * 450px) calc((var(--scale) - 1) * 305px);
     margin-bottom: calc((var(--scale) - 1) * 610px);
     scale: var(--scale)
 }
 
+
+@media (max-width: 850px) {
+    .frame {
+        --scale: 0.90;
+    }
+}
 
 @media (max-width: 780px) {
     .frame {

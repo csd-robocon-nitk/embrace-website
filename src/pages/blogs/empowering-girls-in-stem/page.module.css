@@ -1,0 +1,86 @@
+.page {
+    margin-top: var(--header-height);
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 30px 10px;
+    max-width: 1000px;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.page h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+.page img {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.page p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.page #one {
+    max-width: 700px;
+}
+
+.page #five {
+    max-width: 600px;
+}
+
+.page #six {
+    max-width: 500px;
+}
+
+.page .flex {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.page .flex img {
+    margin: 0px;
+    max-width: 400px;
+    width: calc(50% - 10px);
+}
+
+@media (max-width: 500px) {
+    .page h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .page img {
+        margin: 10px auto;
+    }
+
+    .page p {
+        font-size: 17px;
+    }
+
+    .page .flex img {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .page h1 {
+        font-size: 20px;
+    }
+
+    .page p {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+}

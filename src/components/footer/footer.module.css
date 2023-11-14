@@ -1,5 +1,5 @@
 footer {
-    height: 70px;
+    height: var(--footer-height);
     width: 100%;
     padding: 0px 10px;
     color: var(--light-text);
