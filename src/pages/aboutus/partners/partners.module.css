@@ -16,19 +16,18 @@
 .partners .tabs {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    /* gap: 20px; */
+    gap: 40px;
+    align-items: center;
 }
 
 .partners .tabs .left {
-    border-right: 2px solid var(--bg-dark-blue);
+    border-right: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 10px 20px 10px 0px;
-    flex: 3;
+    padding: 10px 0px;
+    flex: initial;
 }
 
 .partners .tabs .left .bottom {
@@ -39,8 +38,8 @@
 }
 
 .partners .tabs .right {
-    padding: 10px 0px 10px 20px;
-    flex: 1;
+    padding: 10px 0px;
+    flex: initial;
     display: flex;
     justify-content: center;
     align-items: center;
