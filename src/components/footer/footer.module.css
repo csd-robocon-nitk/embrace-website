@@ -1,10 +1,13 @@
 footer {
     height: var(--footer-height);
-    width: 100%;
+    width: 100vw;
     padding: 0px 10px;
     color: var(--light-text);
     box-shadow: var(--accent-transparent) 0px 3px 8px;
     background-color: var(--bg-dark-blue);
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 footer .content {
