@@ -16,6 +16,9 @@ import Gallery from "./pages/gallery/gallery";
 import Events from "./pages/events/events";
 import Blog from "./pages/blogs/blog";
 import Internship from "./pages/internship/internship";
+import EmpowermentHub from "./pages/hubs/empowerment/empowerment.jsx"
+import CommunityHub from "./pages/hubs/community/community.jsx"
+import InnovationNexus from "./pages/hubs/innovation/innovation.jsx"
 // import Blogs from './pages/blogs/blogs'
 
 function App() {
@@ -34,6 +37,10 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/intership/11" element={<Internship />} />
+
+        <Route path="/hubs/community_hub" element={<CommunityHub />} />
+        <Route path="/hubs/empowerment_hub" element={<EmpowermentHub />} />
+        <Route path="/hubs/innovation_nexus" element={<InnovationNexus />} />
       </Routes>
       <Footer />
     </BrowserRouter>
